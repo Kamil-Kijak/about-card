@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
 .social-link {
-    @apply text-white text-xl hover:text-cyan-400 hover:underline transition-colors duration-150 ease-in-out
+    @apply text-white text-xl hover:text-cyan-400 transition-colors duration-200 ease-in-out
+}
+.nav-button {
+    @apply text-white cursor-pointer hover:bg-zinc-700 px-8 py-4 h-full text-xl font-bold transition-colors duration-200 ease-in-out
 }
