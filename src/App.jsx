@@ -46,7 +46,7 @@ function App() {
               </section>
             </section>
             <section className='mt-3 flex flex-col items-center'>
-              <div className='h-3 w-[20%] bg-cyan-400 rounded-2xl'></div>
+              <div className='h-3 w-[250px] bg-cyan-400 rounded-2xl'></div>
               <section className='flex justify-center mt-5 mb-2'>
                 <h1 className='font-bold text-3xl text-white'>Completed Projects: 2</h1>
               </section>
