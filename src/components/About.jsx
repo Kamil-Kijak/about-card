@@ -1,13 +1,18 @@
 
+
 export default function About({}) {
     return (
-        <section className="flex mt-8 justify-center items-start h-full">
-            <section className="flex justify-around w-full mt-10">
+        <section className="flex mt-8 justify-center items-start min-h-full">
+            <section className="flex justify-around w-full mt-10 lg:flex-row flex-col gap-y-10">
                 <section className="flex flex-col items-center flex-1/2">
-                    <h1 className="text-4xl font-bold text-cyan-400">Hello I'm Kamil Kijak</h1>
-                    <h1 className="text-2xl font-bold text-white mt-4">I want to be a Software Engineer</h1>
+                    <h1 className="text-4xl font-bold text-cyan-400 text-center">Hello I'm Kamil Kijak</h1>
+                    <h1 className="text-2xl font-bold text-white mt-4 text-center">I want to be a Software Engineer</h1>
                     <div className='h-3 w-[200px] bg-cyan-400 rounded-2xl my-3'></div>
-                    <h1 className="text-white text-xl w-[50%] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laborum, architecto ullam autem repellat et eos dolore. Ipsa corrupti natus quaerat, itaque, perspiciatis impedit suscipit facere libero earum, porro illum.</h1>
+                    <p className="text-white text-xl lg:w-[50%] w-[75%] text-center">
+                        I am showing now my progress, projects and worked skills. I love making my own projects with my own idea, which I can present in this website.
+                         I also work with my skills (technical and also work management, team work management and others skills). I am a productive person with my goals and dreams.
+                    </p>
+                    <p className="text-white text-3xl font-bold lg:w-[50%] w-[75%] text-center mt-5">Have fun!</p>
                 </section>
                 <section className="flex-1/4 flex flex-col items-center">
                     <h1 className="text-4xl font-bold text-cyan-400">My good things</h1>
