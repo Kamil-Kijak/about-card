@@ -1,15 +1,15 @@
 import { useState } from 'react'
 
-import Profile from "./assets/profile.jpg"
-import PolandFlag from "./assets/polandFlag.webp"
+import Profile from "./assets/profile/profile.jpg"
+import PolandFlag from "./assets/profile/polandFlag.webp"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub, faInstagram, faThreads, faTiktok, faYoutube} from "@fortawesome/free-brands-svg-icons"
 
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
-import About from './components/About';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
+import About from './components/pages/About';
+import Projects from './components/pages/Projects';
+import Skills from './components/pages/Skills';
 
 function App() {
 
