@@ -57,12 +57,12 @@ function App() {
             <section className='pb-5 bg-zinc-900 rounded-xl flex flex-col mt-20 overflow-hidden min-h-[100vh] shadow-lg shadow-cyan-400/70'>
               <nav className='flex justify-start items-center border-b-4 border-cyan-400 flex-wrap'>
                 <Link to={"/"}><button className='nav-button'>About</button></Link>
-                <Link to={"/projects"}><button className='nav-button'>Projects</button></Link>
+                <Link to={"/projects/none"}><button className='nav-button'>Projects</button></Link>
                 <Link to={"/skills"}><button className='nav-button'>Skills</button></Link>
               </nav>
               <Routes>
                 <Route path='/' element={<About/>}/>
-                <Route path='/projects' element={<Projects/>}/>
+                <Route path='/projects/:id' element={<Projects/>}/>
                 <Route path='/skills' element={<Skills/>}/>
               </Routes>
             </section>

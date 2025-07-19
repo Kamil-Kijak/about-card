@@ -22,7 +22,6 @@ export default function Skills({}) {
                     <section className="flex flex-col items-start text-white font-bold mt-7 text-2xl gap-y-5">
                         <IconListItem icon={faGear} text={"Productive"}/>
                         <IconListItem icon={faPen} text={"Planning work"}/>
-                        <IconListItem icon={faUsers} text={"Teamwork"}/>
                         <IconListItem icon={faUser} text={"Individual work"}/>
                         <IconListItem icon={faMagnifyingGlass} text={"Finding solutions"}/>
                         <IconListItem icon={faLightbulb} text={"Create own ideas"}/>
@@ -31,8 +30,10 @@ export default function Skills({}) {
                 <section className="flex-1/3 flex flex-col items-center">
                     <h1 className="text-4xl font-bold text-cyan-400">Social</h1>
                     <section className="flex flex-col items-start text-white font-bold mt-7 text-2xl gap-y-5">
+                        <IconListItem icon={faUsers} text={"Teamwork"}/>
                         <IconListItem icon={faHandshakeSimple} text={"Communicativeness"}/>
-                        <IconListItem icon={faHandHoldingHand} text={"Helpful"}/>    
+                        <IconListItem icon={faHandHoldingHand} text={"Helpful"}/>
+                        <IconListItem icon={faUsers} text={"Empathy"}/>
                     </section>
                 </section>
             </section>
