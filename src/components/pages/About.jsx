@@ -1,9 +1,12 @@
 import TextListItem from "../listItems/TextListItem";
-
+import PageTitle from "../PageTitle"
 
 export default function About({}) {
+
+
     return (
         <section className="flex mt-8 justify-center items-start min-h-full pb-5">
+            <PageTitle title={"About Card - Kamil Kijak"}/>
             <section className="flex justify-around w-full mt-10 lg:flex-row flex-col gap-y-10">
                 <section className="flex flex-col items-center flex-1/2">
                     <h1 className="text-4xl font-bold text-cyan-400 text-center">Hello I'm Kamil Kijak</h1>

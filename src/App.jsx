@@ -31,7 +31,7 @@ function App() {
                   <h1 className='text-xl text-white font-bold'>Cracov, Małopolska</h1>
                 </section>
                 <section className='my-10 ml-3'>
-                  <cite className='text-white text-xl'>''Have a good day!,,</cite>
+                  <cite className='text-zinc-400 text-xl'>''Have a good day!,,</cite>
                 </section>
               </section>
               <section className='flex-1/3 flex flex-col items-center lg:mb-0 mb-4'>
@@ -48,7 +48,6 @@ function App() {
             <section className='mt-3 flex flex-col items-center'>
               <div className='h-3 w-[250px] bg-cyan-400 rounded-2xl'></div>
               <section className='flex flex-col lg:flex-row lg:justify-around gap-y-10 justify-center items-center mt-5 mb-2 w-full'>
-                <h1 className='font-bold text-3xl text-white text-center'>Completed Projects: 2</h1>
                 <h1 className='font-bold text-3xl text-white text-center'>Completed Projects: 2</h1>
               </section>
             </section>

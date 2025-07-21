@@ -2,10 +2,12 @@
 import {faLightbulb, faMagnifyingGlass, faPen, faUser, faUsers, faHandshakeSimple, faHandHoldingHand, faGear} from "@fortawesome/free-solid-svg-icons"
 import IconListItem from '../listItems/IconListItem';
 import TextListItem from "../listItems/TextListItem";
+import PageTitle from "../PageTitle";
 
 export default function Skills({}) {
     return (
         <section className="flex mt-8 justify-center items-start min-h-full pb-5">
+            <PageTitle title={"Skills - Kamil Kijak"}/>
             <section className="flex justify-around w-full mt-10 lg:flex-row flex-col gap-y-10">
                 <section className="flex-1/3 flex flex-col items-center">
                     <h1 className="text-4xl font-bold text-cyan-400">Technical</h1>
