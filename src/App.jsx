@@ -1,6 +1,4 @@
 import { useState } from 'react'
-
-import Profile from "./assets/profile/profile.jpg"
 import PolandFlag from "./assets/profile/polandFlag.webp"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -19,7 +17,7 @@ function App() {
       <main className='min-h-[100vh] bg-zinc-950 z-10 lg:px-20 px-8 py-10 flex flex-col'>
         <section className='py-5 px-10 bg-zinc-900 rounded-xl flex flex-col shadow-lg shadow-cyan-400/70'>
           <section className='flex justify-start flex-col lg:flex-row items-center'>
-              <img src={Profile} className='w-[200px] h-[200px] grayscale-100 shadow-lg shadow-cyan-400' />
+              <img src="/socialicon.jpg" className='w-[200px] h-[200px] grayscale-100 shadow-lg shadow-cyan-400' alt='Kamil Kijak profile picture'/>
               <section className='flex-1/3 lg:ml-10'>
                 <section className='flex items-center flex-col lg:flex-row lg:mt-0 mt-4'>
                   <h1 className='text-3xl font-bold text-cyan-400'>Kamil Kijak</h1>
@@ -39,11 +37,11 @@ function App() {
               <section className='flex-1/3 flex flex-col items-center lg:mb-0 mb-4'>
                 <section className='flex flex-col lg:items-start items-center'>
                   <h1 className='text-3xl font-bold text-cyan-400 mb-5'>{getTextByKey("social")}</h1>
-                  <a title='Github' href="https://github.com/Kamil-Kijak" target="_blank" className='social-link'><FontAwesomeIcon icon={faGithub}/> Kamil-Kijak</a>
-                  <a title='Instagram' href="https://www.instagram.com/kamilkijak/" target="_blank" className='social-link mt-3'><FontAwesomeIcon icon={faInstagram}/> kamilkijak</a>
-                  <a title='Threads' href="https://www.threads.com/@kamilkijak" target="_blank" className='social-link mt-3'><FontAwesomeIcon icon={faThreads}/> @kamilkijak</a>
-                  <a title='Tiktok' href="https://www.tiktok.com/@externalgear" target="_blank" className='social-link mt-3'><FontAwesomeIcon icon={faTiktok}/> @externalgear</a>
-                  <a title='Youtube' href="https://www.youtube.com/@External-Gear" target="_blank" className='social-link mt-3'><FontAwesomeIcon icon={faYoutube}/> @External-Gear</a>
+                  <a title='Github' href="https://github.com/Kamil-Kijak" rel='nofollow' target="_blank" className='social-link'><FontAwesomeIcon icon={faGithub}/> Kamil-Kijak</a>
+                  <a title='Instagram' href="https://www.instagram.com/kamilkijak/" rel='nofollow' target="_blank" className='social-link mt-3'><FontAwesomeIcon icon={faInstagram}/> kamilkijak</a>
+                  <a title='Threads' href="https://www.threads.com/@kamilkijak" rel='nofollow' target="_blank" className='social-link mt-3'><FontAwesomeIcon icon={faThreads}/> @kamilkijak</a>
+                  <a title='Tiktok' href="https://www.tiktok.com/@externalgear" rel='nofollow' target="_blank" className='social-link mt-3'><FontAwesomeIcon icon={faTiktok}/> @externalgear</a>
+                  <a title='Youtube' href="https://www.youtube.com/@External-Gear" rel='nofollow' target="_blank" className='social-link mt-3'><FontAwesomeIcon icon={faYoutube}/> @External-Gear</a>
                 </section>
               </section>
             </section>
