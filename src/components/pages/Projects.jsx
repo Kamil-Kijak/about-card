@@ -20,9 +20,9 @@ export default function Projects({}) {
                 <ProjectItem title="solitaire" img={solitaireImg}/>
             </section>
             <section className=" w-full flex flex-col items-center lg:mt-0 overflow-y-auto md:h-[600px] h-full scrollbar self-start">
-                {<h1 className="text-cyan-400 font-bold text-5xl mb-4 mt-20">{ProjectDescriptions()[id] ? id !="none" ? id : getTextByKey("select") : 404}</h1>}
-                {ProjectDescriptions()[id]?.subtitle || <h1 className="text-white font-bold text-2xl">{getTextByKey("project_not_found")}</h1>}
-                {ProjectDescriptions()[id] && (ProjectDescriptions()[id].hasOwnProperty("desc") ? ProjectDescriptions()[id].desc : <h1 className="text-white font-bold text-2xl my-5">{getTextByKey("no_desc")}</h1>)}
+                {<h1 className="text-cyan-400 font-bold text-5xl mb-4 mt-20 text-center">{ProjectDescriptions()[id] ? id !="none" ? id : getTextByKey("select") : 404}</h1>}
+                {ProjectDescriptions()[id]?.subtitle || <h1 className="text-white font-bold text-2xl text-center">{getTextByKey("project_not_found")}</h1>}
+                {ProjectDescriptions()[id] && (ProjectDescriptions()[id].hasOwnProperty("desc") ? ProjectDescriptions()[id].desc : <h1 className="text-white font-bold text-2xl my-5 text-center">{getTextByKey("no_desc")}</h1>)}
             </section>
         </section>
     )

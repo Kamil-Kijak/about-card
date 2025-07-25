@@ -12,11 +12,11 @@ export default function ProjectDescriptions() {
 
     return {
         "none":{
-            subtitle:<h1 className="text-white font-bold text-2xl">{getTextByKey("view_details")}</h1>,
+            subtitle:<h1 className="text-white font-bold text-2xl text-center">{getTextByKey("view_details")}</h1>,
             desc:<></>
         },
         "solitaire":{
-            subtitle:<h1 className="text-white font-bold text-2xl text-center">{getTextByKey("solitaire_subtitle")}</h1>,
+            subtitle:<h1 className="text-white font-bold text-2xl text-center px-2">{getTextByKey("solitaire_subtitle")}</h1>,
             desc:<>
                 <h1 className="project-desc-h">{getTextByKey("sources")}</h1>
                 <section className="flex lg:flex-row gap-4 justify-center">

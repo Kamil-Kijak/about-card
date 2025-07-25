@@ -20,7 +20,7 @@ function App() {
               <img src="/socialicon.jpg" className='w-[200px] h-[200px] grayscale-100 shadow-lg shadow-cyan-400' alt='Kamil Kijak profile picture'/>
               <section className='flex-1/3 lg:ml-10'>
                 <section className='flex items-center flex-col lg:flex-row lg:mt-0 mt-4'>
-                  <h1 className='text-3xl font-bold text-cyan-400'>Kamil Kijak</h1>
+                  <h1 className='text-3xl font-bold text-cyan-400 lg:mt-0 mt-5'>Kamil Kijak</h1>
                   <select className='border-zinc-700 border-2 text-white font-bold px-3 py-2 bg-zinc-900 rounded-md lg:ml-10 mt-5 lg:mt-0' value={actualLanguage} onChange={(e) => updateActualLanguage(e.target.value)}>
                       <option value="en">English</option>
                       <option value="pl">Polski</option>
