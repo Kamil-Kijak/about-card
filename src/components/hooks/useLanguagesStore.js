@@ -47,8 +47,6 @@ const useLanguagesStore = create((set, get) => ({
         "technologies":{en:"Technologies", pl:"Technologie"},
         "creation":{en:"Creation", pl:"Tworzenie"},
         "vanilla":{en:"vanilla", pl:"podstawa"},
-        "sql":{en:"database creation, operation", pl:"tworzenie, administracja baz danych"},
-        "tailwind":{en:"tailwind components stylizing", pl:"stylizacja komponentów w tailwind"},
 
         "solitaire_subtitle":{en:"A game in console about cards", pl:"Gra w konsoli o kartach"},
         "solitaire_short_desc":{
