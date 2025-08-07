@@ -15,13 +15,13 @@ export default function Skills({}) {
                 <section className="flex-1/3 flex flex-col items-center">
                     <h1 className="text-4xl font-bold text-cyan-400">{getTextByKey("technical")}</h1>
                     <section className="flex flex-col items-start text-white font-bold mt-7 text-2xl gap-y-5 ml-4 px-5 overflow-auto scrollbar h-full md:h-[500px]">
-                        <RatingItem title={<p className="text-orange-700">HTML</p>} starsCount={5}/>
-                        <RatingItem title={<p className="text-yellow-500">Java Script</p>} starsCount={4}/>
+                        <RatingItem title={<p className="text-orange-700">HTML, CSS</p>} starsCount={5}/>
+                        <RatingItem title={<p className="text-yellow-500">Java Script</p>} starsCount={4} certificateLink="https://www.hackerrank.com/certificates/iframe/e99430532e02"/>
                         <RatingItem title={<p className="text-cyan-600">React.js</p>} starsCount={3}/>
                         <RatingItem title={<p className="text-green-600">Node.js</p>} starsCount={3}/>
-                        <RatingItem title={<p className="text-purple-700">SQL</p>} starsCount={4}/>
+                        <RatingItem title={<p className="text-purple-700">SQL</p>} starsCount={4} certificateLink="https://www.hackerrank.com/certificates/iframe/830273fd52ca"/>
                         <RatingItem title={<p className="text-blue-700">Tailwind</p>} starsCount={4}/>
-                        <RatingItem title={<p className="text-cyan-400">C#</p>} starsCount={3}/>
+                        <RatingItem title={<p className="text-cyan-400">C#</p>} starsCount={3} certificateLink="https://www.hackerrank.com/certificates/iframe/c5c7bd9be617"/>
                         <RatingItem title={<p className="text-yellow-500">Python</p>} starsCount={2}/>
                         
                     </section>
