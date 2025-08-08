@@ -3,7 +3,7 @@
 export default function TextListItem({title = <p>ITEM</p>, text}) {
     return (
         <section className="flex items-center">
-            <section className="mr-4">
+            <section className="mr-4" role="title">
                 {title}
             </section>
             <span>{text}</span>

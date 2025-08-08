@@ -7,18 +7,18 @@ export default function RatingItem({title, starsCount = 1, certificateLink}) {
     const stars = new Array(5).fill(null);
     return (
         <section className="flex items-center">
-            <section className="mr-6">
+            <section className="mr-6" role="title">
                 {title}
             </section>
-            <span className="flex gap-x-1">
+            <span className="flex gap-x-1" role="list" aria-label="stars count">
                 {
-                    stars.map(() =>
+                    stars.map((obj, index) =>
                         {
                             if(starsCount>0) {
                                 starsCount--;
-                                return <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
+                                return <FontAwesomeIcon icon={faStar} className="text-yellow-400" key={index}/>
                             } else {
-                                return <FontAwesomeIcon icon={faStar} className="text-yellow-800"/>
+                                return <FontAwesomeIcon icon={faStar} className="text-yellow-800" key={index}/>
                             }
                         }
                     )
@@ -26,7 +26,7 @@ export default function RatingItem({title, starsCount = 1, certificateLink}) {
             </span>
             {
                 certificateLink &&
-                <span className="ml-3">
+                <span className="ml-3" aria-label="certificate link">
                     <a href={certificateLink} target="_blank"><FontAwesomeIcon icon={faMedal} className="cursor-pointer hover:text-yellow-400 transition-colors duration-150 ease-in-out"/></a>
                 </span>
             }
