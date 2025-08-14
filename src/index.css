@@ -7,6 +7,10 @@
   @apply text-white cursor-pointer hover:bg-zinc-800 px-8 py-4 h-full text-xl font-bold transition-colors duration-200 ease-in-out
 }
 
+.nav-active-button {
+  @apply text-white cursor-pointer bg-zinc-800 px-8 py-4 h-full text-xl font-bold transition-colors duration-200 ease-in-out
+}
+
 .project-desc-h {
   @apply font-bold text-3xl text-center my-5 text-cyan-400
 }

@@ -6,6 +6,8 @@ import PageTitle from "../PageTitle";
 
 import solitaireImg from "../../assets/projects/solitaireMain.png"
 import { useLanguagesStore } from "../hooks/useLanguagesStore";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGamepad } from "@fortawesome/free-solid-svg-icons";
 
 export default function Projects({}) {
 
@@ -17,7 +19,7 @@ export default function Projects({}) {
         <section className="flex md:flex-row flex-col mt-8 justify-around items-center min-h-full flex-1">
             <PageTitle title={`${ProjectDescriptions()[id] ? id !="none" ? id : "projects" : "project not found"} - Kamil Kijak`}/>
             <section className="grid xl:grid-cols-2 grid-cols-1 w-full sm:w-[75%] md:w-full p-5 gap-7 items-stretch md:h-[600px] overflow-auto scrollbar" aria-label="Project list" role="grid">
-                <ProjectItem title="solitaire" img={solitaireImg}/>
+                <ProjectItem title="solitaire" img={solitaireImg} typeDescription={<><FontAwesomeIcon icon={faGamepad}/> Game</>} colorClass="bg-orange-700"/>
             </section>
             <section className=" w-full flex flex-col items-center lg:mt-0 overflow-y-auto md:h-[600px] h-full scrollbar self-start" role="description">
                 {<h1 className="text-cyan-400 font-bold text-5xl mb-4 mt-20 text-center">{ProjectDescriptions()[id] ? id !="none" ? id : getTextByKey("select") : 404}</h1>}

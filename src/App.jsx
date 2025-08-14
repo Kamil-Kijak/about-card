@@ -4,13 +4,14 @@ import PolandFlag from "./assets/profile/polandFlag.webp"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub, faInstagram, faThreads, faTiktok, faYoutube} from "@fortawesome/free-brands-svg-icons"
 
-import { BrowserRouter, Route, Routes, Link, Navigate } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Link, Navigate, useLocation } from 'react-router-dom';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Skills from './components/pages/Skills';
 
 import { useLanguagesStore } from './components/hooks/useLanguagesStore';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import NavButton from "./components/nav/NavButton";
 
 function App() {
   const {updateActualLanguage, getTextByKey, actualLanguage} = useLanguagesStore();
@@ -59,9 +60,9 @@ function App() {
           <BrowserRouter>
             <section className='pb-5 bg-zinc-900 rounded-xl flex flex-col mt-20 overflow-hidden min-h-[100vh] shadow-lg shadow-cyan-400/70'>
               <nav className='flex justify-start items-center border-b-4 border-cyan-400 flex-wrap' aria-label="navigation">
-                <Link to={"/"}><button className='nav-button' aria-label="about section link">{getTextByKey("about")}</button></Link>
-                <Link to={"/projects/none"}><button className='nav-button' aria-label="projects section link">{getTextByKey("projects")}</button></Link>
-                <Link to={"/skills"}><button className='nav-button' aria-label="skills section link">{getTextByKey("skills")}</button></Link>
+                <NavButton path={"/"} ariaLabel={"about section link"} text={getTextByKey("about")}/>
+                <NavButton path={"/projects/none"} ariaLabel={"projects section link"} text={getTextByKey("projects")}/>
+                <NavButton path={"/skills"} ariaLabel={"skills section link"} text={getTextByKey("skills")}/>
               </nav>
               <Routes>
                 <Route path='/' element={<About/>}/>
