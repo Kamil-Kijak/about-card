@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import TextListItem from "./listItems/TextListItem";
 
 import { useLanguagesStore } from "./hooks/useLanguagesStore";
+import { faGamepad } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -16,6 +17,7 @@ export default function ProjectDescriptions() {
             desc:<></>
         },
         "solitaire":{
+            type:<p className="bg-orange-700 p-2 rounded-lg font-bold text-white" aria-label="project type"><FontAwesomeIcon icon={faGamepad}/> Game</p>,
             subtitle:<h1 className="text-white font-bold text-2xl text-center px-2" role="subtitle">{getTextByKey("solitaire_subtitle")}</h1>,
             desc:<>
                 <h1 className="project-desc-h">{getTextByKey("sources")}</h1>
@@ -34,7 +36,6 @@ export default function ProjectDescriptions() {
                 <p className="project-desc-p mt-4">{getTextByKey("solitaire_creation2")}</p>
                 <p className="project-desc-p mt-4">{getTextByKey("solitaire_creation3")}</p>
                 <cite className='text-zinc-400 text-xl my-8 text-center px-5'>''{getTextByKey("solitaire_cite")},,</cite>
-            
             </>
         
         }
