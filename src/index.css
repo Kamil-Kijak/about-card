@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+
+.particle-animation {
+  animation: moveLeft 3s linear infinite;
+}
+
+@keyframes moveLeft {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
 .social-link {
   @apply text-white text-xl hover:text-cyan-400 transition-colors duration-200 ease-in-out
 }

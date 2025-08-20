@@ -18,12 +18,12 @@ export default function Projects({}) {
     const projectDescriptions = ProjectDescriptions();
 
     return (
-        <section className="flex md:flex-row flex-col mt-8 justify-around items-center min-h-full flex-1">
+        <section className="flex lg:flex-row flex-col mt-8 md:justify-around justify-center items-center min-h-full flex-1">
             <PageTitle title={`${projectDescriptions[id] ? id !="none" ? id : "projects" : "project not found"} - Kamil Kijak`}/>
-            <section className="grid xl:grid-cols-2 grid-cols-1 w-full sm:w-[75%] md:w-full p-5 gap-7 items-stretch md:h-[600px] overflow-auto scrollbar" aria-label="Project list" role="grid">
+            <section className="grid xl:grid-cols-2 grid-cols-1 w-full sm:w-[75%] md:w-full p-5 gap-7 items-stretch lg:h-[600px] overflow-auto scrollbar lg:max-w-screen md:max-w-[500px] max-w-screen" aria-label="Project list" role="grid">
                 <ProjectItem title="solitaire" img={solitaireImg} typeDescription={<><FontAwesomeIcon icon={faGamepad}/> Game</>} colorClass="bg-orange-700"/>
             </section>
-            <section className=" w-full flex flex-col items-center lg:mt-0 overflow-y-auto md:h-[600px] h-full scrollbar self-start pt-20" role="description">
+            <section className=" w-full flex flex-col items-center lg:mt-0 overflow-y-auto lg:h-[600px] h-full scrollbar self-start pt-20" role="description">
                 {projectDescriptions[id] && (projectDescriptions[id].hasOwnProperty("type")) && projectDescriptions[id].type}
                 {<h1 className="text-cyan-400 font-bold text-5xl mb-4 mt-4 text-center">{projectDescriptions[id] ? id !="none" ? id : getTextByKey("select") : 404}</h1>}
                 {projectDescriptions[id]?.subtitle || <h1 className="text-white font-bold text-2xl text-center">{getTextByKey("project_not_found")}</h1>}
