@@ -12,7 +12,7 @@ export default function About({}) {
             <section className="flex justify-around w-full mt-10 lg:flex-row flex-col gap-y-10">
                 <section className="flex flex-col items-center flex-1/2" aria-label="profile description">
                     <h1 className="text-4xl font-bold text-cyan-400 text-center px-5" aria-label="greetings">{getTextByKey("about_hello")} Kamil Kijak</h1>
-                    <h1 className="text-2xl font-bold text-white mt-4 text-center px-5" aria-label="profession">{getTextByKey("want_be")} Software Engineer</h1>
+                    <h1 className="text-2xl font-bold text-white mt-4 text-center px-5" aria-label="profession">{getTextByKey("want_be")} Software Developer</h1>
                     <div className='h-3 w-[200px] bg-cyan-400 rounded-2xl my-3'></div>
                     <p className="text-white text-xl lg:w-[50%] w-[75%] text-center" aria-label="description">
                         {getTextByKey("about_desc1")}

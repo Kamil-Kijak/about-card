@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import Particle from "./Particle";
 
 
-export default function ParticlesScreen({}) {
+export default function ParticlesScreen({particlesCount}) {
     const [particles, setParticles] = useState([]);
     const [turned, setTurned] = useState(true);
     useEffect(() => {
@@ -15,7 +15,7 @@ export default function ParticlesScreen({}) {
         }
     }, [turned]);
     useEffect(() => {
-        if(particles.length > 100) {
+        if(particles.length > particlesCount) {
             setTurned(false);
         }
     }, [particles]);

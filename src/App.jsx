@@ -19,7 +19,9 @@ function App() {
   return (
     <>
       <main className='min-h-[100vh] bg-zinc-950 z-10 lg:px-20 px-8 py-10 flex flex-col'>
-      <ParticlesScreen/>
+      <ParticlesScreen
+        particlesCount={75}
+      />
         <section className='py-5 px-10 bg-zinc-900 rounded-xl flex flex-col shadow-lg shadow-cyan-400/70 relative'>
           <section className='flex justify-start flex-col lg:flex-row items-center'>
               <img src="/socialicon.jpg" className='w-[200px] h-[200px] grayscale-100 shadow-lg shadow-cyan-400' alt='Kamil Kijak profile picture' role="image"/>
