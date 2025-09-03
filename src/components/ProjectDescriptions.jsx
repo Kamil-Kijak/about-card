@@ -18,7 +18,7 @@ export default function ProjectDescriptions() {
         },
         "solitaire":{
             type:<p className="bg-orange-700 p-2 rounded-lg font-bold text-white" aria-label="project type"><FontAwesomeIcon icon={faGamepad}/> Game</p>,
-            subtitle:<h1 className="text-white font-bold text-2xl text-center px-2" role="subtitle">{getTextByKey("solitaire_subtitle")}</h1>,
+            subtitle:<h1 className="text-white font-bold text-2xl text-center px-5" role="subtitle">{getTextByKey("solitaire_subtitle")}</h1>,
             desc:<>
                 <h1 className="project-desc-h">{getTextByKey("sources")}</h1>
                 <section className="flex lg:flex-row gap-4 justify-center" role="list" aria-label="project sources">
@@ -40,7 +40,7 @@ export default function ProjectDescriptions() {
         },
         "property-managament-system":{
             type:<p className="bg-green-700 p-2 rounded-lg font-bold text-white" aria-label="project type"><FontAwesomeIcon icon={faDatabase}/> Database system</p>,
-            subtitle:<h1 className="text-white font-bold text-2xl text-center px-2" role="subtitle">{getTextByKey("pms_subtitle")}</h1>,
+            subtitle:<h1 className="text-white font-bold text-2xl text-center px-5" role="subtitle">{getTextByKey("pms_subtitle")}</h1>,
             desc:<>
                 <h1 className="project-desc-h">{getTextByKey("sources")}</h1>
                 <section className="flex lg:flex-row gap-4 justify-center" role="list" aria-label="project sources">
@@ -64,6 +64,7 @@ export default function ProjectDescriptions() {
                 <p className="project-desc-p mt-4">{getTextByKey("pms_creation2")}</p>
                 <p className="project-desc-p mt-4">{getTextByKey("pms_creation3")}</p>
                 <p className="project-desc-p mt-4">{getTextByKey("pms_creation4")}</p>
+                <cite className='text-zinc-400 text-xl my-8 text-center px-5'>''{getTextByKey("pms_cite")},,</cite>
             </>
         }
     }

@@ -24,6 +24,7 @@ export default function Projects({}) {
 
     useEffect(() => {
         descRef.current?.scrollIntoView({ behavior: 'smooth' });
+        descRef.current.scrollTop = 0;
     }, [pathname])
 
     return (

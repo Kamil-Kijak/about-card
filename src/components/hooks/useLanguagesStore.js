@@ -101,6 +101,7 @@ const useLanguagesStore = create((set, get) => ({
             en:"Summarize: I learned a lot of things about react.js, node.js and other technologies, I know already about basic fullstack concepts and other things which help me with new projects",
             pl:"Podsumowując: nauczyłem się dużo rzeczy na temat react.js, node.js i innych technologii, wiem już o podstawowych konceptach fullstack i innych rzeczach które pomogą mi w nowych projektach"
         },
+        "pms_cite":{en:"Don't give up, continue and finish work", pl:"Nie poddawaj się, kontynuuj i dokończ prace"},
     },
     actualLanguage: sessionStorage.getItem("lang") || "en",
     updateActualLanguage:(value) => {

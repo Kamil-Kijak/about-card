@@ -23,6 +23,7 @@ export default function Skills({}) {
                         <RatingItem title={<p className="text-blue-700">Tailwind</p>} starsCount={4}/>
                         <RatingItem title={<p className="text-cyan-400">C#</p>} starsCount={3} certificateLink="https://www.hackerrank.com/certificates/iframe/c5c7bd9be617"/>
                         <RatingItem title={<p className="text-yellow-500">Python</p>} starsCount={2}/>
+                        <RatingItem title={<p className="text-pink-800">git</p>} starsCount={4}/>
                     </section>
                 </section>
                 <section className="flex-1/3 flex flex-col items-center">
