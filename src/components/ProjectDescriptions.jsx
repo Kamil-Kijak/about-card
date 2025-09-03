@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import TextListItem from "./listItems/TextListItem";
 
 import { useLanguagesStore } from "./hooks/useLanguagesStore";
-import { faGamepad } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase, faGamepad } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -37,7 +37,34 @@ export default function ProjectDescriptions() {
                 <p className="project-desc-p mt-4">{getTextByKey("solitaire_creation3")}</p>
                 <cite className='text-zinc-400 text-xl my-8 text-center px-5'>''{getTextByKey("solitaire_cite")},,</cite>
             </>
-        
+        },
+        "property-managament-system":{
+            type:<p className="bg-green-700 p-2 rounded-lg font-bold text-white" aria-label="project type"><FontAwesomeIcon icon={faDatabase}/> Database system</p>,
+            subtitle:<h1 className="text-white font-bold text-2xl text-center px-2" role="subtitle">{getTextByKey("pms_subtitle")}</h1>,
+            desc:<>
+                <h1 className="project-desc-h">{getTextByKey("sources")}</h1>
+                <section className="flex lg:flex-row gap-4 justify-center" role="list" aria-label="project sources">
+                    <a title="view project on github" target="_blank" href="https://github.com/Kamil-Kijak/property-managament-system" className="project-desc-button"><FontAwesomeIcon icon={faGithub}/> Github</a>
+                </section>
+                <h1 className="project-desc-h">{getTextByKey("short_desc")}</h1>
+                <p className="project-desc-p">{getTextByKey("pms_short_desc")}</p>
+                <h1 className="project-desc-h">{getTextByKey("technologies")}</h1>
+                <section className="flex flex-col items-start text-white font-bold text-2xl gap-y-5 ml-4 px-1" role="list" aria-label="used technologies">
+                    <TextListItem title={<p className="text-orange-600">MySQL</p>} text={getTextByKey("pms_mysql")}/>
+                    <TextListItem title={<p className="text-green-600">Node.js</p>} text={getTextByKey("pms_node")}/>
+                    <TextListItem title={<p className="text-gray-200">Express.js</p>} text={getTextByKey("pms_express")}/>
+                    <TextListItem title={<p className="text-cyan-400">React.js</p>} text={getTextByKey("pms_react")}/>
+                    <TextListItem title={<p className="text-blue-600">Tailwind</p>} text={getTextByKey("pms_tailwind")}/>
+                    <TextListItem title={<p className="text-purple-700">Vite.js</p>} text={getTextByKey("pms_vite")}/>
+                </section>
+                <h1 className="project-desc-h">{getTextByKey("problem_solving")}</h1>
+                <p className="project-desc-p">{getTextByKey("pms_problem_solving1")}</p>
+                <h1 className="project-desc-h">{getTextByKey("creation")}</h1>
+                <p className="project-desc-p">{getTextByKey("pms_creation1")}</p>
+                <p className="project-desc-p mt-4">{getTextByKey("pms_creation2")}</p>
+                <p className="project-desc-p mt-4">{getTextByKey("pms_creation3")}</p>
+                <p className="project-desc-p mt-4">{getTextByKey("pms_creation4")}</p>
+            </>
         }
     }
 }

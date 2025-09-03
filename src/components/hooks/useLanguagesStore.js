@@ -46,6 +46,7 @@ const useLanguagesStore = create((set, get) => ({
         "short_desc":{en:"Short description", pl:"Krótki opis"},
         "technologies":{en:"Technologies", pl:"Technologie"},
         "creation":{en:"Creation", pl:"Tworzenie"},
+        "problem_solving":{en:"Problem solving", pl:"Rozwiązanie problemu"},
         "vanilla":{en:"vanilla", pl:"podstawa"},
 
         "solitaire_subtitle":{en:"A game in console about cards", pl:"Gra w konsoli o kartach"},
@@ -67,7 +68,39 @@ const useLanguagesStore = create((set, get) => ({
             en:"Summarize: I learned a lot of things after creating this solo created game for my future programming projects",
             pl:"Podsumowując: Nauczyłem się dużo rzeczy dla moich przyszłych projektów po stworzeniu tej gry sam"
         },
-        "solitaire_cite":{en:"First project as first step - maybe not ideal but important", pl:"Pierwszy projekt jako krok - może nie idealny ale ważny"}
+        "solitaire_cite":{en:"First project as first step - maybe not ideal but important", pl:"Pierwszy projekt jako krok - może nie idealny ale ważny"},
+
+        "pms_subtitle":{en:"A database system for manage properties", pl:"System bazy danych do zarządzania nieruchmomościami"},
+        "pms_short_desc":{
+            en:"Database system using for property management, store data about them, creating reports about expiring rent contracts. This is my first high-level fullstack project.",
+            pl:"System bazy danych używany żeby zarządzać nieruchomościami, gromadzić dane o nich, tworzyć raporty o przedawniających się umowach dzierżawy. To jest mój pierszy tak zaawansowany projekt fullstack."
+        },
+        "pms_mysql":{en:"Database language", pl:"Język bazy danych"},
+        "pms_node":{en:"Backend", pl:"Backend"},
+        "pms_express":{en:"Backend server", pl:"Serwer backend"},
+        "pms_react":{en:"Frontend framework", pl:"Frontend framework"},
+        "pms_tailwind":{en:"Styles formatting", pl:"Formatowanie styli"},
+        "pms_vite":{en:"Project management", pl:"Zarządzanie projektem"},
+        "pms_problem_solving1":{
+            en:"This project solve problem with chaotic data store, improve searching lands, making rent contracts, land updation, information flow",
+            pl:"Ten project rozwiązuje problem z chaotycznym magazynowaniem danych, poprawia szukanie działek, tworzenie umów dzierżawy, aktualizacje działek, przepływ informacji"
+        },
+        "pms_creation1":{
+            en:"It is my first fullstack project ever ended. I created this project for client according to his requirements",
+            pl:"To jest mój pierwszy project fullstack jaki kolwiek skończyłem. Stworzyłem ten projekt dla klienta zgodnie z jego wymaganiami"
+        },
+        "pms_creation2":{
+            en:"Creating process was challange for me in backend, frontend using different technologies. Also I had restricted time to complete this project",
+            pl:"Proces tworzenia był dla mnie wyzwaniem w backend, frontend używając różnych technologi. Także miałem narzucony czas na skończenie projektu"
+        },
+        "pms_creation3":{
+            en:"Project requirements also were changing so I have to changing project code many times, but project met the requirements and was good",
+            pl:"Wymagania projektu także się zmieniały więc musiałem zmieniać kod projektu dużo razy, ale projekt spełniał wymagania i było dobrze"
+        },
+        "pms_creation4":{
+            en:"Summarize: I learned a lot of things about react.js, node.js and other technologies, I know already about basic fullstack concepts and other things which help me with new projects",
+            pl:"Podsumowując: nauczyłem się dużo rzeczy na temat react.js, node.js i innych technologii, wiem już o podstawowych konceptach fullstack i innych rzeczach które pomogą mi w nowych projektach"
+        },
     },
     actualLanguage: sessionStorage.getItem("lang") || "en",
     updateActualLanguage:(value) => {

@@ -58,7 +58,7 @@ function App() {
             <section className='mt-3 flex flex-col items-center'>
               <div className='h-3 w-[250px] bg-cyan-400 rounded-2xl'></div>
               <section className='flex flex-col lg:flex-row lg:justify-around gap-y-10 justify-center items-center mt-5 mb-2 w-full'>
-                <h1 className='font-bold text-3xl text-white text-center' aria-label="completed projects">{getTextByKey("completed_projects")} 2</h1>
+                <h1 className='font-bold text-3xl text-white text-center' aria-label="completed projects">{getTextByKey("completed_projects")} 3</h1>
               </section>
             </section>
           </section>
