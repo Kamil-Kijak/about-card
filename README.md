@@ -8,6 +8,14 @@ I will update my portfolio site for new projects and skills
 ## Run project:  
 To run this project you must have installed node and npm  
 Clone this repository and write in terminal localized in project folder  
-***npm install***  
-***npm run dev***  
+```
+npm install
+```
+to install node modules and  
+```
+npm run dev
+```
+to run project  
 Vite server should host project on ***localhost:5173***  
+## Author
+Kamil Kijak   
