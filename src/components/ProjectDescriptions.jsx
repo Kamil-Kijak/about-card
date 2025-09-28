@@ -28,8 +28,8 @@ export default function ProjectDescriptions() {
                 <p className="project-desc-p">{getTextByKey("solitaire_short_desc")}</p>
                 <h1 className="project-desc-h">{getTextByKey("technologies")}</h1>
                 <section className="flex flex-col items-start text-white font-bold text-2xl gap-y-5 ml-4 px-1" role="list" aria-label="used technologies">
-                    <TextListItem title={<p className="text-cyan-400">C#</p>} text={getTextByKey("solitaire_c#")}/>
-                    <TextListItem title={<p className="text-cyan-400">.NET</p>} text={getTextByKey("solitaire_dotnet")}/>
+                    <TextListItem title={<p className="shadow-cyan-400 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="technology">C#</p>} text={getTextByKey("solitaire_c#")}/>
+                    <TextListItem title={<p className="shadow-cyan-400 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="technology">.NET</p>} text={getTextByKey("solitaire_dotnet")}/>
                 </section>
                 <h1 className="project-desc-h">{getTextByKey("creation")}</h1>
                 <p className="project-desc-p">{getTextByKey("solitaire_creation1")}</p>
@@ -50,12 +50,12 @@ export default function ProjectDescriptions() {
                 <p className="project-desc-p">{getTextByKey("pms_short_desc")}</p>
                 <h1 className="project-desc-h">{getTextByKey("technologies")}</h1>
                 <section className="flex flex-col items-start text-white font-bold text-2xl gap-y-5 ml-4 px-1" role="list" aria-label="used technologies">
-                    <TextListItem title={<p className="text-orange-600">MySQL</p>} text={getTextByKey("pms_mysql")}/>
-                    <TextListItem title={<p className="text-green-600">Node.js</p>} text={getTextByKey("pms_node")}/>
-                    <TextListItem title={<p className="text-gray-200">Express.js</p>} text={getTextByKey("pms_express")}/>
-                    <TextListItem title={<p className="text-cyan-400">React.js</p>} text={getTextByKey("pms_react")}/>
-                    <TextListItem title={<p className="text-blue-600">Tailwind</p>} text={getTextByKey("pms_tailwind")}/>
-                    <TextListItem title={<p className="text-purple-700">Vite.js</p>} text={getTextByKey("pms_vite")}/>
+                    <TextListItem title={<p className="shadow-orange-600 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="technology">MySQL</p>} text={getTextByKey("pms_mysql")}/>
+                    <TextListItem title={<p className="shadow-green-600 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="technology">Node.js</p>} text={getTextByKey("pms_node")}/>
+                    <TextListItem title={<p className="shadow-gray-400 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="technology">Express.js</p>} text={getTextByKey("pms_express")}/>
+                    <TextListItem title={<p className="shadow-cyan-400 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="technology">React.js</p>} text={getTextByKey("pms_react")}/>
+                    <TextListItem title={<p className="shadow-blue-600 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="technology">Tailwind</p>} text={getTextByKey("pms_tailwind")}/>
+                    <TextListItem title={<p className="shadow-purple-700 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="technology">Vite.js</p>} text={getTextByKey("pms_vite")}/>
                 </section>
                 <h1 className="project-desc-h">{getTextByKey("problem_solving")}</h1>
                 <p className="project-desc-p">{getTextByKey("pms_problem_solving1")}</p>

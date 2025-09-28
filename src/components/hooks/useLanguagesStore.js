@@ -4,7 +4,7 @@ import { create } from "zustand"
 const useLanguagesStore = create((set, get) => ({
     texts:{
         "localization":{en:"Cracov, Lesser Poland", pl:"Kraków, Małopolska"},
-        "main_cite":{en:"Have a good day", pl:"Miej dobry dzień"},
+        "main_cite":{en:"Working and fucussing with code", pl:"Pracowanie i koncentracja nad kodem"},
         "social":{en:"Socials", pl:"Społecznościowe"},
         "completed_projects":{en:"Completed Projects: ", pl:"Ukończone Projekty: "},
         "about":{en:"About", pl:"O mnie"},
@@ -13,14 +13,14 @@ const useLanguagesStore = create((set, get) => ({
         "about_hello":{en:"Hello, I'm", pl:"Cześć, nazywam się"},
         "want_be":{en:"I want to be a", pl:"Chcę zostać"},
         "about_desc1":{
-            en:"I am showing now my progress, projects and worked skills. I love making my own projects with my own idea, which I can present in this website.",
-            pl:"Teraz pokazuje mój postęp, projekty i wypracowane umiejętności. Kocham robić swoje własne projekty z własnego pomysłu, które mogę pokazać na tej stronie."
+            en:"Creating IT things is my pasion. In this porfolio site I am showing my already done projects, learned skills and my IT brand achivements. I want to improve all time to be better",
+            pl:"Tworzenie rzeczy z IT jest moim zainteresowaniem. W tej stronie portfolio pokazuje moje już skończone projekty, nabyte umiejętności i moje osiągnięcia z branży IT. Chcę rozwijać się cały czas żeby być lepszym"
         },
         "about_desc2":{
-            en:"I also work with my skills (technical and also work management, team work management and others skills). I am a productive person with my goals and dreams.",
-            pl:"Także pracuje nad moimi umięjetnościami (technicznymi a także zarządzania pracą, zarządzanie pracą zespołową i inne). Jestem produktywną osobą z moimi celami i marzeniami"
+            en:"My aim is made an IT carrier and be a successful person. I have many plans, ideas, hopes and also strengths in IT brand",
+            pl:"Moim celem jest zrobienie cariery zawodowej w IT i bycie osobą sukcesu. Mam dużo planów, pomysłów, nadziei, a także mocnych stron w branży IT"
         },
-        "have_fun":{en:"Have fun!", pl:"Baw się dobrze!"},
+        "check_out":{en:"Check them out!", pl:"Sprawdź je!"},
         "good_things":{en:"My good things", pl:"Moje mocne strony"},
         "productive":{en:"Productive", pl:"Produktywność"},
         "creative":{en:"Creative", pl:"Kreatywność"},
@@ -55,7 +55,7 @@ const useLanguagesStore = create((set, get) => ({
             pl:"Prosta gra w pasjans uruchamiana w consoli stworzona w polskim języku. Gra ma prostą grafikę i sterowanie"
         },
         "solitaire_c#":{en:"Main programming language", pl:"Główny język programowania"},
-        "solitaire_dotnet":{en:"Tool used for creating project", pl:"Narzędzie używane w trakcie tworzenia projektu"},
+        "solitaire_dotnet":{en:"Tool used for creating", pl:"Narzędzie używane w trakcie tworzenia"},
         "solitaire_creation1":{
             en:"This project is my first project in console and also one of my first finished projects in C# language",
             pl:"Ten projekt jest moim pierwszym projektem konsolowm i także jednym z moich pierwszych ukończonych projektów w języku C#"

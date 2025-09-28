@@ -13,17 +13,17 @@ export default function Skills({}) {
             <section className="flex justify-around w-full mt-10 lg:flex-row flex-col gap-y-10">
                 <section className="flex-1/3 flex flex-col items-center">
                     <h1 className="text-4xl font-bold text-cyan-400">{getTextByKey("technical")}</h1>
-                    <section className="flex flex-col items-start text-white font-bold mt-7 text-2xl gap-y-5 ml-4 px-5 overflow-auto scrollbar h-full md:h-[500px]" role="list" aria-label="technical skills">
-                        <RatingItem title={<p className="text-orange-700">HTML</p>} starsCount={5}/>
-                        <RatingItem title={<p className="text-blue-300">CSS</p>} starsCount={5}/>
-                        <RatingItem title={<p className="text-yellow-500">Java Script</p>} starsCount={4} certificateLink="https://www.hackerrank.com/certificates/iframe/e99430532e02"/>
-                        <RatingItem title={<p className="text-cyan-600">React.js</p>} starsCount={3} certificateLink="https://www.hackerrank.com/certificates/iframe/a13c4fcb3949"/>
-                        <RatingItem title={<p className="text-green-600">Node.js</p>} starsCount={3}/>
-                        <RatingItem title={<p className="text-purple-700">SQL</p>} starsCount={4} certificateLink="https://www.hackerrank.com/certificates/iframe/830273fd52ca"/>
-                        <RatingItem title={<p className="text-blue-700">Tailwind</p>} starsCount={4}/>
-                        <RatingItem title={<p className="text-cyan-400">C#</p>} starsCount={3} certificateLink="https://www.hackerrank.com/certificates/iframe/c5c7bd9be617"/>
-                        <RatingItem title={<p className="text-yellow-500">Python</p>} starsCount={2}/>
-                        <RatingItem title={<p className="text-pink-800">git</p>} starsCount={4}/>
+                    <section className="flex flex-col items-start text-white font-bold mt-7 text-2xl gap-y-5 ml-4 px-5 py-2 overflow-auto scrollbar h-full md:h-[500px]" role="list" aria-label="technical skills">
+                        <RatingItem title={<p className="shadow-orange-700 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">HTML</p>} starsCount={5}/>
+                        <RatingItem title={<p className="shadow-blue-300 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">CSS</p>} starsCount={5}/>
+                        <RatingItem title={<p className="shadow-yellow-500 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">Java Script</p>} starsCount={4} certificateLink="https://www.hackerrank.com/certificates/iframe/e99430532e02"/>
+                        <RatingItem title={<p className="shadow-cyan-600 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">React.js</p>} starsCount={3} certificateLink="https://www.hackerrank.com/certificates/iframe/a13c4fcb3949"/>
+                        <RatingItem title={<p className="shadow-green-600 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">Node.js</p>} starsCount={3}/>
+                        <RatingItem title={<p className="shadow-purple-700 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">SQL</p>} starsCount={4} certificateLink="https://www.hackerrank.com/certificates/iframe/830273fd52ca"/>
+                        <RatingItem title={<p className="shadow-blue-700 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">Tailwind</p>} starsCount={4}/>
+                        <RatingItem title={<p className="shadow-cyan-400 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">C#</p>} starsCount={3} certificateLink="https://www.hackerrank.com/certificates/iframe/c5c7bd9be617"/>
+                        <RatingItem title={<p className="shadow-yellow-500 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">Python</p>} starsCount={2}/>
+                        <RatingItem title={<p className="shadow-pink-800 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">Git</p>} starsCount={4}/>
                     </section>
                 </section>
                 <section className="flex-1/3 flex flex-col items-center">

@@ -20,7 +20,7 @@ export default function About({}) {
                     <p className="text-white text-xl lg:w-[50%] w-[75%] text-center mt-4" aria-label="description">
                         {getTextByKey("about_desc2")}
                     </p>
-                    <p className="text-white text-3xl font-bold lg:w-[50%] w-[75%] text-center mt-5">{getTextByKey("have_fun")}</p>
+                    <p className="text-white text-3xl font-bold lg:w-[50%] w-[75%] text-center mt-5">{getTextByKey("check_out")}</p>
                 </section>
                 <section className="flex-1/4 flex flex-col items-center">
                     <h1 className="text-4xl font-bold text-cyan-400">{getTextByKey("good_things")}</h1>
