@@ -2,7 +2,7 @@
 import PolandFlag from "./assets/profile/polandFlag.webp"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faGithub, faInstagram, faThreads, faTiktok, faYoutube} from "@fortawesome/free-brands-svg-icons"
+import {faGithub, faInstagram, faLinkedin, faThreads, faTiktok, faYoutube} from "@fortawesome/free-brands-svg-icons"
 
 import { BrowserRouter, Route, Routes, Link, Navigate, useLocation } from 'react-router-dom';
 import About from './components/pages/About';
@@ -47,7 +47,7 @@ function App() {
               <section className='flex-1/3 flex flex-col items-center lg:mb-0 mb-4'>
                 <section className='flex flex-col lg:items-start items-center' aria-label="social links" role="list">
                   <h1 className='text-3xl font-bold text-cyan-400 mb-5'>{getTextByKey("social")}</h1>
-                  <a title='Github' href="https://github.com/Kamil-Kijak" rel='nofollow' target="_blank" className='social-link' aria-label="github"><FontAwesomeIcon icon={faGithub}/> Kamil-Kijak</a>
+                  <a title='Linkedin' href="https://www.linkedin.com/in/kamil-kijak-546676358" rel='nofollow' target="_blank" className='social-link' aria-label="linkedin"><FontAwesomeIcon icon={faLinkedin}/> Kamil Kijak</a>
                   <a title='Instagram' href="https://www.instagram.com/kamilkijak/" rel='nofollow' target="_blank" className='social-link mt-3' aria-label="instagram"><FontAwesomeIcon icon={faInstagram}/> kamilkijak</a>
                   <a title='Threads' href="https://www.threads.com/@kamilkijak" rel='nofollow' target="_blank" className='social-link mt-3' aria-label="threads"><FontAwesomeIcon icon={faThreads}/> @kamilkijak</a>
                   <a title='Tiktok' href="https://www.tiktok.com/@externalgear" rel='nofollow' target="_blank" className='social-link mt-3' aria-label="tiktok"><FontAwesomeIcon icon={faTiktok}/> @externalgear</a>

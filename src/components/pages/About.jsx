@@ -1,6 +1,8 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useLanguagesStore } from "../hooks/useLanguagesStore";
-import TextListItem from "../listItems/TextListItem";
 import PageTitle from "../PageTitle"
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import ThingLink from "../listItems/ThingLink";
 
 export default function About({}) {
     
@@ -24,14 +26,15 @@ export default function About({}) {
                 </section>
                 <section className="flex-1/4 flex flex-col items-center">
                     <h1 className="text-4xl font-bold text-cyan-400">{getTextByKey("good_things")}</h1>
-                    <section className="flex flex-col items-start text-white font-bold mt-7 text-2xl gap-y-3 px-5" role="list" aria-label="good things">
-                        <TextListItem title={<div className="bg-cyan-400 w-[1rem] h-[1rem] rounded-full"></div>} text={getTextByKey("productive")}/>
-                        <TextListItem title={<div className="bg-cyan-400 w-[1rem] h-[1rem] rounded-full"></div>} text={getTextByKey("creative")}/>
-                        <TextListItem title={<div className="bg-cyan-400 w-[1rem] h-[1rem] rounded-full"></div>} text={getTextByKey("self-improvement")}/>
-                        <TextListItem title={<div className="bg-cyan-400 w-[1rem] h-[1rem] rounded-full"></div>} text={getTextByKey("problem_solving")}/>
-                        <TextListItem title={<div className="bg-cyan-400 w-[1rem] h-[1rem] rounded-full"></div>} text={getTextByKey("logical_thinking")}/>
-                        <TextListItem title={<div className="bg-cyan-400 w-[1rem] h-[1rem] rounded-full"></div>} text={getTextByKey("helper")}/>
-                        <TextListItem title={<div className="bg-cyan-400 w-[1rem] h-[1rem] rounded-full"></div>} text={getTextByKey("teamwork")}/>
+                    <section className="flex flex-col items-start text-white font-bold mt-7 text-2xl gap-y-3 px-5" role="list" aria-label="things">
+                        <ThingLink
+                            href={"https://github.com/Kamil-Kijak"}
+                            title={
+                            <>
+                                <FontAwesomeIcon icon={faGithub}/> Github
+                            </>
+                            }
+                        />
                     </section>
                 </section>
             </section>

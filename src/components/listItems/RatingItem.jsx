@@ -27,7 +27,7 @@ export default function RatingItem({title, starsCount = 1, certificateLink}) {
             {
                 certificateLink &&
                 <span className="ml-3" aria-label="certificate link">
-                    <a href={certificateLink} target="_blank"><FontAwesomeIcon icon={faMedal} className="cursor-pointer hover:text-yellow-400 transition-colors duration-150 ease-in-out"/></a>
+                    <a href={certificateLink} title="Ceritificate" target="_blank"><FontAwesomeIcon icon={faMedal} className="cursor-pointer hover:text-yellow-400 hover:scale-125 transition-all duration-150 ease-in-out"/></a>
                 </span>
             }
         </section>

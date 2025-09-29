@@ -21,7 +21,7 @@ const useLanguagesStore = create((set, get) => ({
             pl:"Moim celem jest zrobienie cariery zawodowej w IT i bycie osobą sukcesu. Mam dużo planów, pomysłów, nadziei, a także mocnych stron w branży IT"
         },
         "check_out":{en:"Check them out!", pl:"Sprawdź je!"},
-        "good_things":{en:"My good things", pl:"Moje mocne strony"},
+        "good_things":{en:"My things", pl:"Moje rzeczy"},
         "productive":{en:"Productive", pl:"Produktywność"},
         "creative":{en:"Creative", pl:"Kreatywność"},
         "self-improvement":{en:"Self-improvement", pl:"Samodoskonalenie się"},
@@ -34,7 +34,7 @@ const useLanguagesStore = create((set, get) => ({
         "planning_work":{en:"Planning work", pl:"Planowanie pracy"},
         "individual_work":{en:"Individual work", pl:"Praca indywidualna"},
         "finding_solutions":{en:"Finding solutions", pl:"Szukanie rozwiązań"},
-        "creating_own_ideas":{en:"Creating own ideas", pl:"Tworzenie własnych pomysłów"},
+        "creating_own_ideas":{en:"Creating ideas", pl:"Tworzenie pomysłów"},
         "communicativeness":{en:"Communicativeness", pl:"Komunikatywność"},
         "helpful":{en:"Helpful", pl:"Pomocność"},
         "empathy":{en:"Empathy", pl:"Empatia"},
