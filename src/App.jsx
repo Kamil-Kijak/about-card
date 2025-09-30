@@ -38,7 +38,7 @@ function App() {
                     <img src={PolandFlag} className='w-[1.5rem] h-[1rem] mr-1' aria-label="poland flag" />
                     <h1 className='text-xl text-white font-bold' aria-label="localization">{getTextByKey("localization")}</h1>
                   </section>
-                  <h1 className="text-md text-white font-bold lg:ml-7" aria-label="email adress"><FontAwesomeIcon icon={faEnvelope}/> kamil.kijak@pixlesofte.com</h1>
+                  <a href="mailto:kamil.kijak@pixlesofte.com" className=" text-white border-b-transparent hover:border-b-cyan-400 border-b-4 font-bold lg:ml-7" aria-label="email adress"><FontAwesomeIcon icon={faEnvelope}/> kamil.kijak@pixlesofte.com</a>
                 </section>
                 <section className='my-8 ml-3' aria-label="cite">
                   <cite className='text-zinc-400 text-xl text-center'>''{getTextByKey("main_cite")},,</cite>
