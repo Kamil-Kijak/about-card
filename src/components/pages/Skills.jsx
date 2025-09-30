@@ -35,7 +35,6 @@ export default function Skills({}) {
                         <IconListItem icon={faUser} text={getTextByKey("individual_work")}/>
                         <IconListItem icon={faMagnifyingGlass} text={getTextByKey("finding_solutions")}/>
                         <IconListItem icon={faLightbulb} text={getTextByKey("creating_own_ideas")}/>
-                        <IconListItem icon={faPaintBrush} text={getTextByKey("creative")}/>
                     </section>
                 </section>
                 <section className="flex-1/3 flex flex-col items-center">

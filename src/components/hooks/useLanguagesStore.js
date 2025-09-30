@@ -13,17 +13,16 @@ const useLanguagesStore = create((set, get) => ({
         "about_hello":{en:"Hello, I'm", pl:"Cześć, nazywam się"},
         "want_be":{en:"I want to be a", pl:"Chcę zostać"},
         "about_desc1":{
-            en:"Creating IT things is my pasion. In this porfolio site I am showing my already done projects, learned skills and my IT brand achivements. I want to improve all time to be better",
-            pl:"Tworzenie rzeczy z IT jest moim zainteresowaniem. W tej stronie portfolio pokazuje moje już skończone projekty, nabyte umiejętności i moje osiągnięcia z branży IT. Chcę rozwijać się cały czas żeby być lepszym"
+            en:"Creating IT things is my pasion. In this porfolio site I am showing my already done projects, learned skills and my IT brand achivements. I focus on self-development",
+            pl:"Tworzenie rzeczy z IT jest moim zainteresowaniem. W tej stronie portfolio pokazuje moje już skończone projekty, nabyte umiejętności i moje osiągnięcia z branży IT. Stawiam na samorozwój"
         },
         "about_desc2":{
-            en:"My aim is made an IT carrier and be a successful person. I have many plans, ideas, hopes and also strengths in IT brand",
-            pl:"Moim celem jest zrobienie cariery zawodowej w IT i bycie osobą sukcesu. Mam dużo planów, pomysłów, nadziei, a także mocnych stron w branży IT"
+            en:"My aim is creating the most innovative solutions used in IT all time, after that I want create something really big. I want to be better with each project",
+            pl:"Moim celem jest tworzenie najbardziej innowacyjnych rozwiązań stosowanych w IT przez cały czas, po tym chciałnym stworzyć coś naprawdę dużego. Chcę być lepszy z każdym projektem"
         },
         "check_out":{en:"Check them out!", pl:"Sprawdź je!"},
         "good_things":{en:"My things", pl:"Moje rzeczy"},
         "productive":{en:"Productive", pl:"Produktywność"},
-        "creative":{en:"Creative", pl:"Kreatywność"},
         "self-improvement":{en:"Self-improvement", pl:"Samodoskonalenie się"},
         "problem_solving":{en:"Problem solving", pl:"Rozwiązywanie problemów"},
         "logical_thinking":{en:"Logical thinking", pl:"Myślenie logiczne"},
@@ -34,7 +33,7 @@ const useLanguagesStore = create((set, get) => ({
         "planning_work":{en:"Planning work", pl:"Planowanie pracy"},
         "individual_work":{en:"Individual work", pl:"Praca indywidualna"},
         "finding_solutions":{en:"Finding solutions", pl:"Szukanie rozwiązań"},
-        "creating_own_ideas":{en:"Creating ideas", pl:"Tworzenie pomysłów"},
+        "creating_own_ideas":{en:"Creative ideas", pl:"Kreatywne pomysły"},
         "communicativeness":{en:"Communicativeness", pl:"Komunikatywność"},
         "helpful":{en:"Helpful", pl:"Pomocność"},
         "empathy":{en:"Empathy", pl:"Empatia"},
