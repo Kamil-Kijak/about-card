@@ -2,7 +2,9 @@
 
 
 .particle-animation {
-  animation: moveLeft 3s linear infinite;
+  animation-name: moveLeft;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @keyframes moveLeft {
