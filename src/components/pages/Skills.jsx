@@ -27,23 +27,21 @@ export default function Skills({}) {
                     </section>
                 </section>
                 <section className="flex-1/3 flex flex-col items-center">
-                    <h1 className="text-4xl font-bold text-cyan-400">{getTextByKey("practical")}</h1>
+                    <h1 className="text-4xl font-bold text-cyan-400">{getTextByKey("soft")}</h1>
                     <section className="flex flex-col items-start text-white font-bold mt-7 text-2xl gap-y-5 px-5 overflow-auto scrollbar h-full md:h-[500px]" role="list" aria-label="practical skills">
                         <IconListItem icon={faGear} text={getTextByKey("productive")}/>
                         <IconListItem icon={faBrain} text={getTextByKey("logical_thinking")}/>
                         <IconListItem icon={faPen} text={getTextByKey("planning_work")}/>
                         <IconListItem icon={faUser} text={getTextByKey("individual_work")}/>
+                        <IconListItem icon={faUsers} text={getTextByKey("teamwork")}/>
                         <IconListItem icon={faMagnifyingGlass} text={getTextByKey("finding_solutions")}/>
                         <IconListItem icon={faLightbulb} text={getTextByKey("creating_own_ideas")}/>
                     </section>
                 </section>
                 <section className="flex-1/3 flex flex-col items-center">
-                    <h1 className="text-4xl font-bold text-cyan-400">{getTextByKey("social")}</h1>
+                    <h1 className="text-4xl font-bold text-cyan-400">{getTextByKey("certificates")}</h1>
                     <section className="flex flex-col items-start text-white font-bold mt-7 text-2xl gap-y-5 px-5 overflow-auto scrollbar h-full md:h-[500px]" role="list" aria-label="social skills">
-                        <IconListItem icon={faUsers} text={getTextByKey("teamwork")}/>
-                        <IconListItem icon={faHandshakeSimple} text={getTextByKey("communicativeness")}/>
-                        <IconListItem icon={faHandHoldingHand} text={getTextByKey("helpful")}/>
-                        <IconListItem icon={faUsers} text={getTextByKey("empathy")}/>
+                        
                     </section>
                 </section>
             </section>
