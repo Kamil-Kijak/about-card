@@ -3,6 +3,7 @@ import { useLanguagesStore } from "../hooks/useLanguagesStore";
 import PageTitle from "../PageTitle"
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import ThingLink from "../listItems/ThingLink";
+import { faFile, faPrint } from "@fortawesome/free-solid-svg-icons";
 
 export default function About({}) {
     
@@ -23,6 +24,12 @@ export default function About({}) {
                         {getTextByKey("about_desc2")}
                     </p>
                     <p className="text-white text-3xl font-bold lg:w-[50%] w-[75%] text-center mt-5">{getTextByKey("check_out")}</p>
+                    <section className="flex lg:flex-row gap-4 justify-center mt-6">
+                        <a title="Download CV" aria-label="download button" target="_blank" className="project-desc-button"><FontAwesomeIcon icon={faFile}/> {getTextByKey("download")} CV</a>
+                    </section>
+                    <section className="flex lg:flex-row gap-4 justify-center mt-4">
+                        <a title="Print CV" aria-label="download button" target="_blank" className="project-desc-button"><FontAwesomeIcon icon={faPrint}/> {getTextByKey("print")} CV</a>
+                    </section>
                 </section>
                 <section className="flex-1/4 flex flex-col items-center">
                     <h1 className="text-4xl font-bold text-cyan-400">{getTextByKey("good_things")}</h1>

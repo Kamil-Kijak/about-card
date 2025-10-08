@@ -44,6 +44,8 @@ const useLanguagesStore = create((set, get) => ({
         "creation":{en:"Creation", pl:"Tworzenie"},
         "problem_solving":{en:"Problem solving", pl:"Rozwiązanie problemu"},
         "vanilla":{en:"vanilla", pl:"podstawa"},
+        "download":{en:"Download", pl:"Pobierz"},
+        "print":{en:"Print", pl:"Drukuj"},
 
         "solitaire_subtitle":{en:"A game in console about cards", pl:"Gra w konsoli o kartach"},
         "solitaire_short_desc":{
