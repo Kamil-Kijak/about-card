@@ -4,10 +4,19 @@ import PageTitle from "../PageTitle"
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import ThingLink from "../listItems/ThingLink";
 import { faFile, faPrint } from "@fortawesome/free-solid-svg-icons";
+import { useReactToPrint } from "react-to-print";
+import CV from "./CV";
+import { useRef } from "react";
 
 export default function About({}) {
     
     const getTextByKey = useLanguagesStore((state) => state.getTextByKey);
+
+    const CVRef = useRef(null);
+
+    const printCV = useReactToPrint({
+        contentRef:CVRef
+    });
 
     return (
         <section className="flex mt-8 justify-center items-start min-h-full pb-5">
@@ -25,10 +34,10 @@ export default function About({}) {
                     </p>
                     <p className="text-white text-3xl font-bold lg:w-[50%] w-[75%] text-center mt-5">{getTextByKey("check_out")}</p>
                     <section className="flex lg:flex-row gap-4 justify-center mt-6">
-                        <a title="Download CV" aria-label="download button" target="_blank" className="project-desc-button"><FontAwesomeIcon icon={faFile}/> {getTextByKey("download")} CV</a>
+                        <a role="button" title="Download CV" aria-label="download button" target="_blank" className="project-desc-button"><FontAwesomeIcon icon={faFile}/> {getTextByKey("download")} CV</a>
                     </section>
                     <section className="flex lg:flex-row gap-4 justify-center mt-4">
-                        <a title="Print CV" aria-label="download button" target="_blank" className="project-desc-button"><FontAwesomeIcon icon={faPrint}/> {getTextByKey("print")} CV</a>
+                        <button role="button" title="Print CV" aria-label="print button" target="_blank" className="project-desc-button" onClick={printCV}><FontAwesomeIcon icon={faPrint}/> {getTextByKey("print")} CV</button>
                     </section>
                 </section>
                 <section className="flex-1/4 flex flex-col items-center">
@@ -42,6 +51,12 @@ export default function About({}) {
                             </>
                             }
                         />
+                    </section>
+                </section>
+                {/* Component only prepared for print */}
+                <section className="hidden">
+                    <section ref={CVRef}>
+                        <CV/>
                     </section>
                 </section>
             </section>
