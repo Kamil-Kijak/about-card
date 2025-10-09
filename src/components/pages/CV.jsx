@@ -1,4 +1,4 @@
-import { faBookmark, faEnvelope, faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faBookmark, faEnvelope, faGlobe, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
@@ -14,27 +14,23 @@ export default function CV() {
                     <img src="/socialicon.jpg" className='w-[150px] h-[150px] rounded-2xl grayscale-100' alt='Kamil Kijak profile picture' role="image"/>
                     <h1 className="mt-3 text-xl font-bold text-zinc-900">Kamil Kijak</h1>
                     <p className="font-bold text-zinc-800 text-center">(Student of software development)</p>
-                    <section className="my-6 w-full">
-                        <p className="font-bold text-zinc-900 self-start">Contact:</p>
+                    <section className="mt-6 w-full">
+                        <p className="font-bold text-zinc-900 self-start">Personal Data:</p>
                         <section className="flex flex-col items-center">
-                            <section className="mt-3">
+                            <section className="mt-3 gap-y-2 flex flex-col">
+                                <section className="text-zinc-800 flex items-center gap-x-2">
+                                    <FontAwesomeIcon icon={faLocationDot}/> Poland, Kraków
+                                </section>
                                 <section className="text-zinc-800 flex items-center gap-x-2">
                                     <FontAwesomeIcon icon={faEnvelope}/> kamil.kijak@pixlesofte.com
                                 </section>
-                            </section>
-                        </section>
-                    </section>
-                    <section className="w-full">
-                        <p className="font-bold text-zinc-900 self-start">Portfolio:</p>
-                        <section className="flex flex-col items-center">
-                            <section className="mt-3">
                                 <section className="text-zinc-800 flex items-center gap-x-2">
                                     <FontAwesomeIcon icon={faGlobe}/> https://aboutme.pixlesofte.com
                                 </section>
                             </section>
                         </section>
                     </section>
-                    <section className="w-full mt-3">
+                    <section className="w-full mt-6">
                         <p className="font-bold text-zinc-900 self-start">Hobbies:</p>
                         <section className="flex flex-col items-center">
                             <ul className="mt-3 list-disc">
@@ -51,6 +47,18 @@ export default function CV() {
                                 <li className="text-zinc-800">Websites, databases creating</li>
                                 <li className="text-zinc-800">Creating IT systems</li>
                                 <li className="text-zinc-800">Planning and creating IT projects</li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section className="w-full mt-6">
+                        <p className="font-bold text-zinc-900 self-start">Soft skills:</p>
+                        <section className="flex flex-col items-center">
+                            <ul className="mt-3 list-disc">
+                                <li className="text-zinc-800">Logical thinking</li>
+                                <li className="text-zinc-800">Creating ideas</li>
+                                <li className="text-zinc-800">Finding solutions</li>
+                                <li className="text-zinc-800">Teamwork</li>
+                                <li className="text-zinc-800">Productivity</li>
                             </ul>
                         </section>
                     </section>
