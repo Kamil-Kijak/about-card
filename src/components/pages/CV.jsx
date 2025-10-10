@@ -16,6 +16,7 @@ export default function CV() {
                     <p className="font-bold text-zinc-800 text-center">(Student of software development)</p>
                     <section className="mt-6 w-full">
                         <p className="font-bold text-zinc-900 self-start">Personal Data:</p>
+                        <div className="bg-red-700 w-full h-[3px] mt-1"></div>
                         <section className="flex flex-col items-center">
                             <section className="mt-3 gap-y-2 flex flex-col">
                                 <section className="text-zinc-800 flex items-center gap-x-2 text-sm">
@@ -32,33 +33,36 @@ export default function CV() {
                     </section>
                     <section className="w-full mt-6">
                         <p className="font-bold text-zinc-900 self-start">Hobbies:</p>
-                        <section className="flex flex-col items-center">
-                            <ul className="mt-3 list-disc">
-                                <li className="text-zinc-800 text-sm">Programming</li>
-                                <li className="text-zinc-800 text-sm">Gamedev</li>
-                                <li className="text-zinc-800 text-sm">Designing</li>
+                        <div className="bg-red-700 w-full h-[3px] mt-1"></div> 
+                        <section className="flex flex-col items-start ml-5">
+                            <ul className="mt-3 list-disc text-zinc-800 text-sm">
+                                <li>Programming</li>
+                                <li>Gamedev</li>
+                                <li>Designing</li>
                             </ul>
                         </section>
                     </section>
                     <section className="w-full mt-6">
                         <p className="font-bold text-zinc-900 self-start">Hard skills:</p>
-                        <section className="flex flex-col items-center">
-                            <ul className="mt-3 list-disc">
-                                <li className="text-zinc-800 text-sm">Websites, databases creating</li>
-                                <li className="text-zinc-800 text-sm">Creating IT systems</li>
-                                <li className="text-zinc-800 text-sm">Planning and creating IT projects</li>
+                        <div className="bg-red-700 w-full h-[3px] mt-1"></div>
+                        <section className="flex flex-col items-start ml-5">
+                            <ul className="mt-3 list-disc text-zinc-800 text-sm">
+                                <li>Websites, databases creating</li>
+                                <li>Creating IT systems</li>
+                                <li>Planning and creating IT projects</li>
                             </ul>
                         </section>
                     </section>
                     <section className="w-full mt-6">
                         <p className="font-bold text-zinc-900 self-start">Soft skills:</p>
-                        <section className="flex flex-col items-center">
-                            <ul className="mt-3 list-disc">
-                                <li className="text-zinc-800 text-sm">Logical thinking</li>
-                                <li className="text-zinc-800 text-sm">Creating ideas</li>
-                                <li className="text-zinc-800 text-sm">Finding solutions</li>
-                                <li className="text-zinc-800 text-sm">Teamwork</li>
-                                <li className="text-zinc-800 text-sm">Productivity</li>
+                        <div className="bg-red-700 w-full h-[3px] mt-1"></div>
+                        <section className="flex flex-col items-start ml-5">
+                            <ul className="mt-3 list-disc text-zinc-800 text-sm">
+                                <li>Logical thinking</li>
+                                <li>Creating ideas</li>
+                                <li>Finding solutions</li>
+                                <li>Teamwork</li>
+                                <li>Productivity</li>
                             </ul>
                         </section>
                     </section>
