@@ -56,3 +56,9 @@
     background: #363636;
   }
 }
+
+@media print {
+  @page {
+    size: A4 portrait;
+  }
+}
