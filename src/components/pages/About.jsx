@@ -15,7 +15,8 @@ export default function About({}) {
     const CVRef = useRef(null);
 
     const printCV = useReactToPrint({
-        contentRef:CVRef
+        contentRef:CVRef,
+        documentTitle:"Kamil Kijak CV"
     });
 
     return (

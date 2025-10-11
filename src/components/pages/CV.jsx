@@ -1,4 +1,5 @@
-import { faBookmark, faEnvelope, faGlobe, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faAddressBook, faBirthdayCake, faBookmark, faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
@@ -17,17 +18,33 @@ export default function CV() {
                     <section className="mt-6 w-full">
                         <p className="font-bold text-zinc-900 self-start">Personal Data:</p>
                         <div className="bg-red-700 w-full h-[3px] mt-1"></div>
-                        <section className="flex flex-col items-center">
+                        <section className="flex flex-col items-start">
                             <section className="mt-3 gap-y-2 flex flex-col">
                                 <section className="text-zinc-800 flex items-center gap-x-2 text-sm">
                                     <FontAwesomeIcon icon={faLocationDot}/> Poland, Kraków
                                 </section>
                                 <section className="text-zinc-800 flex items-center gap-x-2 text-sm">
-                                    <FontAwesomeIcon icon={faEnvelope}/> kamil.kijak@pixlesofte.com
+                                    <FontAwesomeIcon icon={faBirthdayCake}/> 07.07.2008
                                 </section>
                                 <section className="text-zinc-800 flex items-center gap-x-2 text-sm">
-                                    <FontAwesomeIcon icon={faGlobe}/> https://aboutme.pixlesofte.com
+                                    <FontAwesomeIcon icon={faEnvelope}/> kamil.kijak@pixlesofte.com
                                 </section>
+                               
+                            </section>
+                        </section>
+                    </section>
+                    <section className="mt-6 w-full">
+                        <p className="font-bold text-zinc-900 self-start">Links:</p>
+                        <div className="bg-red-700 w-full h-[3px] mt-1"></div>
+                        <section className="mt-3 gap-y-2 flex flex-col">
+                            <section className="text-zinc-800 flex items-center gap-x-2 text-sm" title="Portfolio">
+                                <FontAwesomeIcon icon={faAddressBook}/> https://aboutme.pixlesofte.com
+                            </section>
+                            <section className="text-zinc-800 flex items-center gap-x-2 text-sm" title="Portfolio">
+                                <FontAwesomeIcon icon={faGithub}/> https://github.com/Kamil-Kijak
+                            </section>
+                            <section className="text-zinc-800 flex items-center gap-x-2 text-sm" title="Portfolio">
+                                <FontAwesomeIcon icon={faLinkedin}/> https://linkedin.com/in/kamil-kijak-546676358
                             </section>
                         </section>
                     </section>
@@ -63,6 +80,7 @@ export default function CV() {
                                 <li>Finding solutions</li>
                                 <li>Teamwork</li>
                                 <li>Productivity</li>
+                                <li>Creativity</li>
                             </ul>
                         </section>
                     </section>
@@ -76,7 +94,7 @@ export default function CV() {
                             <div className="w-[10px] h-[10px] bg-zinc-800 rounded-full"></div>
                             <section className="flex flex-col">
                                 <p className="text-sm font-bold">Technikum komunikacyjne nr 25, Kraków</p>
-                                <p className="text-sm">2023 - (expected gratulation June 2028)</p>
+                                <p className="text-sm">2023 - (expected gradulation June 2028)</p>
                                 <p className="text-sm">Programming Technician</p>
                             </section>
                         </section>
