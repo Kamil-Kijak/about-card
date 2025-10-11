@@ -22,7 +22,7 @@ const useLanguagesStore = create((set, get) => ({
         },
         "check_out":{en:"Check them out!", pl:"Sprawdź je!"},
         "good_things":{en:"My things", pl:"Moje rzeczy"},
-        "productive":{en:"Productive", pl:"Produktywność"},
+        "productive":{en:"Productivity", pl:"Produktywność"},
         "self-improvement":{en:"Self-improvement", pl:"Samodoskonalenie się"},
         "problem_solving":{en:"Problem solving", pl:"Rozwiązywanie problemów"},
         "logical_thinking":{en:"Logical thinking", pl:"Myślenie logiczne"},
