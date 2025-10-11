@@ -35,7 +35,7 @@ export default function About({}) {
                     </p>
                     <p className="text-white text-3xl font-bold lg:w-[50%] w-[75%] text-center mt-5">{getTextByKey("check_out")}</p>
                     <section className="flex lg:flex-row gap-4 justify-center mt-6">
-                        <a role="button" title="Download CV" aria-label="download button" target="_blank" className="project-desc-button"><FontAwesomeIcon icon={faFile}/> {getTextByKey("download")} CV</a>
+                        <a download={"Kamil_Kijak_CV.pdf"} href="./CV.pdf" role="button" title="Download CV" aria-label="download button" target="_blank" className="project-desc-button"><FontAwesomeIcon icon={faFile}/> {getTextByKey("download")} CV</a>
                     </section>
                     <section className="flex lg:flex-row gap-4 justify-center mt-4">
                         <button role="button" title="Print CV" aria-label="print button" target="_blank" className="project-desc-button" onClick={printCV}><FontAwesomeIcon icon={faPrint}/> {getTextByKey("print")} CV</button>
