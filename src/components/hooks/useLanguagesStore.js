@@ -10,6 +10,8 @@ const useLanguagesStore = create((set, get) => ({
         "about":{en:"About", pl:"O mnie"},
         "projects":{en:"Projects", pl:"Projekty"},
         "skills":{en:"Skills", pl:"Umiejętności"},
+        "achivements":{en:"Achivements", pl:"Osiągnięcia"},
+        "experience":{en:"Experience", pl:"Doświadczenie"},
         "about_hello":{en:"Hello, I'm", pl:"Cześć, nazywam się"},
         "want_be":{en:"I want to be a", pl:"Chcę zostać"},
         "about_desc1":{

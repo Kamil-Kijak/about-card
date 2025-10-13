@@ -2,9 +2,9 @@
 import PolandFlag from "./assets/profile/polandFlag.webp"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faGithub, faInstagram, faLinkedin, faThreads, faTiktok, faYoutube} from "@fortawesome/free-brands-svg-icons"
+import { faInstagram, faLinkedin, faThreads, faTiktok, faYoutube} from "@fortawesome/free-brands-svg-icons"
 
-import { BrowserRouter, Route, Routes, Link, Navigate, useLocation } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Skills from './components/pages/Skills';
@@ -13,6 +13,7 @@ import { useLanguagesStore } from './components/hooks/useLanguagesStore';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import NavButton from "./components/nav/NavButton";
 import ParticlesScreen from "./components/particles/ParticlesScreen";
+import Achivements from "./components/pages/Achivements";
 
 function App() {
   const {updateActualLanguage, getTextByKey, actualLanguage} = useLanguagesStore();
@@ -68,12 +69,14 @@ function App() {
                 <NavButton path={"/"} ariaLabel={"about section link"} text={getTextByKey("about")}/>
                 <NavButton path={"/projects/none"} ariaLabel={"projects section link"} text={getTextByKey("projects")}/>
                 <NavButton path={"/skills"} ariaLabel={"skills section link"} text={getTextByKey("skills")}/>
+                <NavButton path={"/achivements"} ariaLabel={"achivements section link"} text={getTextByKey("achivements")}/>
               </nav>
               <Routes>
                 <Route path='/' element={<About/>}/>
                 <Route path='/projects' element={<Navigate to={"/projects/none"} replace/>}/>
                 <Route path='/projects/:id' element={<Projects/>}/>
                 <Route path='/skills' element={<Skills/>}/>
+                <Route path='/achivements' element={<Achivements/>}/>
               </Routes>
             </section>
           </BrowserRouter>
