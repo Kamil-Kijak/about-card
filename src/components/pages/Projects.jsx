@@ -30,7 +30,7 @@ export default function Projects({}) {
     return (
         <section className="flex lg:flex-row flex-col mt-8 md:justify-around justify-center items-center min-h-full flex-1">
             <PageTitle title={`${projectDescriptions[id] ? id !="none" ? id : "projects" : "project not found"} - Kamil Kijak`}/>
-            <section className="grid xl:grid-cols-2 grid-cols-1 w-full sm:w-[75%] md:w-full p-5 gap-7 items-stretch lg:h-[600px] overflow-auto scrollbar lg:max-w-screen md:max-w-[500px] max-w-screen" aria-label="Project list" role="grid">
+            <section className="grid lg:grid-cols-2 grid-cols-1 w-full sm:w-[75%] md:w-full p-5 gap-7 items-stretch lg:h-[600px] overflow-auto scrollbar lg:max-w-screen md:max-w-[500px] max-w-screen" aria-label="Project list" role="grid">
                 <ProjectItem title="solitaire" img={solitaireImg} typeDescription={<><FontAwesomeIcon icon={faGamepad}/> Game</>} colorClass="bg-orange-700"/>
                 <ProjectItem title="property-managament-system" img={pmsImg} typeDescription={<><FontAwesomeIcon icon={faDatabase}/> Database system</>} colorClass="bg-green-700"/>
             </section>
