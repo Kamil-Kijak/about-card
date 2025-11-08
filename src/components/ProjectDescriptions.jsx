@@ -58,7 +58,7 @@ export default function ProjectDescriptions() {
                     <TextListItem title={<p className="shadow-purple-700 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="technology">Vite.js</p>} text={getTextByKey("pms_vite")}/>
                 </section>
                 <h1 className="project-desc-h">{getTextByKey("problem_solving")}</h1>
-                <p className="project-desc-p">{getTextByKey("pms_problem_solving1")}</p>
+                <p className="project-desc-p">{getTextByKey("pms_problem_solution1")}</p>
                 <h1 className="project-desc-h">{getTextByKey("creation")}</h1>
                 <p className="project-desc-p">{getTextByKey("pms_creation1")}</p>
                 <p className="project-desc-p mt-4">{getTextByKey("pms_creation2")}</p>

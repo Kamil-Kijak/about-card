@@ -44,7 +44,7 @@ const useLanguagesStore = create((set, get) => ({
         "short_desc":{en:"Short description", pl:"Krótki opis"},
         "technologies":{en:"Technologies", pl:"Technologie"},
         "creation":{en:"Creation", pl:"Tworzenie"},
-        "problem_solving":{en:"Problem solving", pl:"Rozwiązanie problemu"},
+        "problem_solving":{en:"Problem solution", pl:"Rozwiązanie problemu"},
         "vanilla":{en:"vanilla", pl:"podstawa"},
         "download":{en:"Download", pl:"Pobierz"},
         "print":{en:"Print", pl:"Drukuj"},
@@ -81,7 +81,7 @@ const useLanguagesStore = create((set, get) => ({
         "pms_react":{en:"Frontend framework", pl:"Frontend framework"},
         "pms_tailwind":{en:"Styles formatting", pl:"Formatowanie styli"},
         "pms_vite":{en:"Project management", pl:"Zarządzanie projektem"},
-        "pms_problem_solving1":{
+        "pms_problem_solution1":{
             en:"This project solve problem with chaotic data store, improve searching lands, making rent contracts, land updation, information flow",
             pl:"Ten project rozwiązuje problem z chaotycznym magazynowaniem danych, poprawia szukanie działek, tworzenie umów dzierżawy, aktualizacje działek, przepływ informacji"
         },
