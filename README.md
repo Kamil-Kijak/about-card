@@ -29,4 +29,5 @@ npm run dev
 ``` 
 - Vite server should host project on ```localhost:5173```  
 ## 👦 Authors
-- Kamil Kijak ```(solo developer)```  
+- Kamil Kijak ```(solo developer)```
+## Project protected using MIT license
