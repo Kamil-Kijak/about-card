@@ -23,7 +23,7 @@ export default function Skills({}) {
                         <RatingItem title={<p className="shadow-purple-500 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">PHP</p>} starsCount={2}/>
                         <RatingItem title={<p className="shadow-purple-700 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">SQL</p>} starsCount={4} certificateLink="https://www.hackerrank.com/certificates/iframe/830273fd52ca"/>
                         <RatingItem title={<p className="shadow-cyan-400 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">C#</p>} starsCount={3} certificateLink="https://www.hackerrank.com/certificates/iframe/c5c7bd9be617"/>
-                        <RatingItem title={<p className="shadow-yellow-500 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">Python</p>} starsCount={2}/>
+                        <RatingItem title={<p className="shadow-yellow-500 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">Python</p>} starsCount={3}/>
                         <RatingItem title={<p className="shadow-pink-800 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="skill">Git</p>} starsCount={4}/>
                     </section>
                 </section>

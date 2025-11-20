@@ -4,22 +4,22 @@ import { create } from "zustand"
 const useLanguagesStore = create((set, get) => ({
     texts:{
         "localization":{en:"Cracov, Lesser Poland", pl:"Kraków, Małopolska"},
-        "main_cite":{en:"Working and fucussing with code", pl:"Pracowanie i koncentracja nad kodem"},
+        "main_cite":{en:"Working and focussing with code", pl:"Pracowanie i koncentracja nad kodem"},
         "social":{en:"Socials", pl:"Społecznościowe"},
         "completed_projects":{en:"Completed Projects: ", pl:"Ukończone Projekty: "},
         "about":{en:"About", pl:"O mnie"},
         "projects":{en:"Projects", pl:"Projekty"},
         "skills":{en:"Skills", pl:"Umiejętności"},
-        "achivements":{en:"Achivements", pl:"Osiągnięcia"},
+        "achivements":{en:"Achievements", pl:"Osiągnięcia"},
         "experience":{en:"Experience", pl:"Doświadczenie"},
         "about_hello":{en:"Hello, I'm", pl:"Cześć, nazywam się"},
         "want_be":{en:"I want to be a", pl:"Chcę zostać"},
         "about_desc1":{
-            en:"Creating IT things is my pasion. In this porfolio site I am showing my already done projects, learned skills and my IT brand achivements. I focus on self-development",
+            en:"Creating IT technologies is my passion. In this porfolio site I'm showing my already done projects, learned skills and my IT brand achievements. I focus on self-development",
             pl:"Tworzenie rzeczy z IT jest moim zainteresowaniem. W tej stronie portfolio pokazuje moje już skończone projekty, nabyte umiejętności i moje osiągnięcia z branży IT. Stawiam na samorozwój"
         },
         "about_desc2":{
-            en:"My aim is creating the most innovative solutions used in IT all time, after that I want create something really big. I want to be better with each project",
+            en:"My goal is to create the most innovative solutions used in IT, after that I want create something really big. I want to be better with each project",
             pl:"Moim celem jest tworzenie najbardziej innowacyjnych rozwiązań stosowanych w IT przez cały czas, po tym chciałnym stworzyć coś naprawdę dużego. Chcę być lepszy z każdym projektem"
         },
         "check_out":{en:"Check them out!", pl:"Sprawdź je!"},
@@ -29,8 +29,8 @@ const useLanguagesStore = create((set, get) => ({
         "problem_solving":{en:"Problem solving", pl:"Rozwiązywanie problemów"},
         "logical_thinking":{en:"Logical thinking", pl:"Myślenie logiczne"},
         "teamwork":{en:"Teamwork", pl:"Praca zespołowa"},
-        "technical":{en:"Technical", pl:"Techniczne"},
-        "soft":{en:"Soft", pl:"Miękkie"},
+        "technical":{en:"Technical skills", pl:"Techniczne umiejętności"},
+        "soft":{en:"Soft skills", pl:"Miękkie umiejętności"},
         "certificates":{en:"Certificates", pl:"Certyfikaty"},
         "planning_work":{en:"Planning work", pl:"Planowanie pracy"},
         "individual_work":{en:"Individual work", pl:"Praca indywidualna"},
@@ -49,30 +49,30 @@ const useLanguagesStore = create((set, get) => ({
         "download":{en:"Download", pl:"Pobierz"},
         "print":{en:"Print", pl:"Drukuj"},
 
-        "solitaire_subtitle":{en:"A game in console about cards", pl:"Gra w konsoli o kartach"},
+        "solitaire_subtitle":{en:"A game in the CLI about cards", pl:"Gra we wierszu poleceń o kartach"},
         "solitaire_short_desc":{
-            en:"A basic solitaire game playable in console created in polish language. Game has simple graphics and controls.",
-            pl:"Prosta gra w pasjans uruchamiana w consoli stworzona w polskim języku. Gra ma prostą grafikę i sterowanie"
+            en:"A basic solitaire game playable in the console created in the polish language. The Game has simple graphics and controls.",
+            pl:"Prosta gra w pasjans uruchamiana w konsoli stworzona w polskim języku. Gra ma prostą grafikę i sterowanie"
         },
         "solitaire_c#":{en:"Main programming language", pl:"Główny język programowania"},
-        "solitaire_dotnet":{en:"Tool used for creating", pl:"Narzędzie używane w trakcie tworzenia"},
+        "solitaire_dotnet":{en:"Library used for creating", pl:"Biblioteka używane w trakcie tworzenia"},
         "solitaire_creation1":{
-            en:"This project is my first project in console and also one of my first finished projects in C# language",
+            en:"This project is my first project made in console and also one of my first finished projects in the C# language",
             pl:"Ten projekt jest moim pierwszym projektem konsolowm i także jednym z moich pierwszych ukończonych projektów w języku C#"
         },
         "solitaire_creation2":{
-            en:"Creating this project learnt me things about programming apps in console and also tested my skills in C#",
+            en:"Creating this project learnt me things about programming apps in the console and also tested my skills in the C#",
             pl:"Tworzenie tego projektu nauczyło mnie rzeczy na temat programowania aplikacji w konsoli, a także sprawdziło moje umięjetności w C#"
         },
         "solitaire_creation3":{
-            en:"Summarize: I learned a lot of things after creating this solo created game for my future programming projects",
+            en:"In summary: I learnt a lot of things after creating this solo made game for my future programming projects",
             pl:"Podsumowując: Nauczyłem się dużo rzeczy dla moich przyszłych projektów po stworzeniu tej gry sam"
         },
         "solitaire_cite":{en:"First project as first step - maybe not ideal but important", pl:"Pierwszy projekt jako krok - może nie idealny ale ważny"},
 
-        "pms_subtitle":{en:"A database system for manage properties", pl:"System bazy danych do zarządzania nieruchmomościami"},
+        "pms_subtitle":{en:"A database system for managing properties", pl:"System bazy danych do zarządzania nieruchmomościami"},
         "pms_short_desc":{
-            en:"Database system using for property management, store data about them, creating reports about expiring rent contracts. This is my first high-level fullstack project.",
+            en:"Database system using for property managament, store data about them, creating reports about expiring rent contracts. This is my first high-level fullstack project.",
             pl:"System bazy danych używany żeby zarządzać nieruchomościami, gromadzić dane o nich, tworzyć raporty o przedawniających się umowach dzierżawy. To jest mój pierszy tak zaawansowany projekt fullstack."
         },
         "pms_mysql":{en:"Database language", pl:"Język bazy danych"},
