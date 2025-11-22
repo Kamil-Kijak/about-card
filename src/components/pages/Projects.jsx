@@ -32,7 +32,7 @@ export default function Projects({}) {
             <PageTitle title={`${projectDescriptions[id] ? id !="none" ? id : "projects" : "project not found"} - Kamil Kijak`}/>
             <section className="grid lg:grid-cols-2 grid-cols-1 w-full sm:w-[75%] md:w-full p-5 gap-7 items-stretch lg:h-[600px] overflow-auto scrollbar lg:max-w-screen md:max-w-[500px] max-w-screen" aria-label="Project list" role="grid">
                 <ProjectItem title="solitaire" img={solitaireImg} typeDescription={<><FontAwesomeIcon icon={faGamepad}/> Game</>} colorClass="bg-orange-700"/>
-                <ProjectItem title="property-managament-system" img={pmsImg} typeDescription={<><FontAwesomeIcon icon={faDatabase}/> Database system</>} colorClass="bg-green-700"/>
+                <ProjectItem title="property-management-system" img={pmsImg} typeDescription={<><FontAwesomeIcon icon={faDatabase}/> Database system</>} colorClass="bg-green-700"/>
             </section>
             <section ref={descRef} className=" w-full flex flex-col items-center lg:mt-0 overflow-y-auto lg:h-[600px] h-full scrollbar self-start pt-20" role="description">
                 {projectDescriptions[id] && (projectDescriptions[id].hasOwnProperty("type")) && projectDescriptions[id].type}

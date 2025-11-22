@@ -4,7 +4,7 @@ import { create } from "zustand"
 const useLanguagesStore = create((set, get) => ({
     texts:{
         "localization":{en:"Cracov, Lesser Poland", pl:"Kraków, Małopolska"},
-        "main_cite":{en:"Working and focussing with code", pl:"Pracowanie i koncentracja nad kodem"},
+        "main_cite":{en:"Working and focusing with code", pl:"Pracowanie i koncentracja nad kodem"},
         "social":{en:"Socials", pl:"Społecznościowe"},
         "completed_projects":{en:"Completed Projects: ", pl:"Ukończone Projekty: "},
         "about":{en:"About", pl:"O mnie"},
@@ -15,11 +15,11 @@ const useLanguagesStore = create((set, get) => ({
         "about_hello":{en:"Hello, I'm", pl:"Cześć, nazywam się"},
         "want_be":{en:"I want to be a", pl:"Chcę zostać"},
         "about_desc1":{
-            en:"Creating IT technologies is my passion. In this porfolio site I'm showing my already done projects, learned skills and my IT brand achievements. I focus on self-development",
+            en:"Creating IT technologies is my passion. In this portfolio site I'm showing my already done projects, learned skills and my IT brand achievements. I focus on self-development",
             pl:"Tworzenie rzeczy z IT jest moim zainteresowaniem. W tej stronie portfolio pokazuje moje już skończone projekty, nabyte umiejętności i moje osiągnięcia z branży IT. Stawiam na samorozwój"
         },
         "about_desc2":{
-            en:"My goal is to create the most innovative solutions used in IT, after that I want create something really big. I want to be better with each project",
+            en:"My goal is to create the most innovative solutions used in IT, after that I want to create something really big. I want to be better with each project",
             pl:"Moim celem jest tworzenie najbardziej innowacyjnych rozwiązań stosowanych w IT przez cały czas, po tym chciałnym stworzyć coś naprawdę dużego. Chcę być lepszy z każdym projektem"
         },
         "check_out":{en:"Check them out!", pl:"Sprawdź je!"},
@@ -51,7 +51,7 @@ const useLanguagesStore = create((set, get) => ({
 
         "solitaire_subtitle":{en:"A game in the CLI about cards", pl:"Gra we wierszu poleceń o kartach"},
         "solitaire_short_desc":{
-            en:"A basic solitaire game playable in the console created in the polish language. The Game has simple graphics and controls.",
+            en:"A basic solitaire game playable in the console created in the Polish language. The game has simple graphics and controls.",
             pl:"Prosta gra w pasjans uruchamiana w konsoli stworzona w polskim języku. Gra ma prostą grafikę i sterowanie"
         },
         "solitaire_c#":{en:"Main programming language", pl:"Główny język programowania"},
@@ -61,19 +61,19 @@ const useLanguagesStore = create((set, get) => ({
             pl:"Ten projekt jest moim pierwszym projektem konsolowm i także jednym z moich pierwszych ukończonych projektów w języku C#"
         },
         "solitaire_creation2":{
-            en:"Creating this project learnt me things about programming apps in the console and also tested my skills in the C#",
+            en:"Creating this project taught me things about programming apps in the console and also tested my skills in C#",
             pl:"Tworzenie tego projektu nauczyło mnie rzeczy na temat programowania aplikacji w konsoli, a także sprawdziło moje umięjetności w C#"
         },
         "solitaire_creation3":{
-            en:"In summary: I learnt a lot of things after creating this solo made game for my future programming projects",
+            en:"In summary, I learned a lot of things after creating this solo-made game for my future programming projects",
             pl:"Podsumowując: Nauczyłem się dużo rzeczy dla moich przyszłych projektów po stworzeniu tej gry sam"
         },
         "solitaire_cite":{en:"First project as first step - maybe not ideal but important", pl:"Pierwszy projekt jako krok - może nie idealny ale ważny"},
 
         "pms_subtitle":{en:"A database system for managing properties", pl:"System bazy danych do zarządzania nieruchmomościami"},
         "pms_short_desc":{
-            en:"Database system using for property managament, store data about them, creating reports about expiring rent contracts. This is my first high-level fullstack project.",
-            pl:"System bazy danych używany żeby zarządzać nieruchomościami, gromadzić dane o nich, tworzyć raporty o przedawniających się umowach dzierżawy. To jest mój pierszy tak zaawansowany projekt fullstack."
+            en:"Database system using for property management, storing data about them, and creating reports about expiring rent contracts. This is my first high-level full-stack project.",
+            pl:"System bazy danych używany żeby zarządzać nieruchomościami, gromadzić dane o nich i tworzyć raporty o przedawniających się umowach dzierżawy. To jest mój pierszy tak zaawansowany projekt fullstack."
         },
         "pms_mysql":{en:"Database language", pl:"Język bazy danych"},
         "pms_node":{en:"Backend", pl:"Backend"},
@@ -82,26 +82,26 @@ const useLanguagesStore = create((set, get) => ({
         "pms_tailwind":{en:"Styles formatting", pl:"Formatowanie styli"},
         "pms_vite":{en:"Project management", pl:"Zarządzanie projektem"},
         "pms_problem_solution1":{
-            en:"This project solve problem with chaotic data store, improve searching lands, making rent contracts, land updation, information flow",
-            pl:"Ten project rozwiązuje problem z chaotycznym magazynowaniem danych, poprawia szukanie działek, tworzenie umów dzierżawy, aktualizacje działek, przepływ informacji"
+            en:"This project solves problems with chaotic data storage, improves searching lands, making rent contracts, land update, and information flow",
+            pl:"Ten project rozwiązuje problem z chaotycznym magazynowaniem danych, poprawia szukanie działek, tworzenie umów dzierżawy, aktualizacje działek, i przepływ informacji"
         },
         "pms_creation1":{
-            en:"It is my first fullstack project ever ended. I created this project for client according to his requirements",
-            pl:"To jest mój pierwszy project fullstack jaki kolwiek skończyłem. Stworzyłem ten projekt dla klienta zgodnie z jego wymaganiami"
+            en:"It is my first full-stack project ever completed. I created this project for the client according to his requirements",
+            pl:"To jest mój pierwszy project fullstack jaki kolwiek ukończyłem. Stworzyłem ten projekt dla klienta zgodnie z jego wymaganiami"
         },
         "pms_creation2":{
-            en:"Creating process was challange for me in backend, frontend using different technologies. Also I had restricted time to complete this project",
-            pl:"Proces tworzenia był dla mnie wyzwaniem w backend, frontend używając różnych technologi. Także miałem narzucony czas na skończenie projektu"
+            en:"Creating process was a challange for me in the backend and frontend using different technologies. Also, I had restricted time to complete this project",
+            pl:"Proces tworzenia był dla mnie wyzwaniem w backend i frontend używając różnych technologi. Także miałem narzucony czas na skończenie projektu"
         },
         "pms_creation3":{
-            en:"Project requirements also were changing so I have to changing project code many times, but project met the requirements and was good",
+            en:"Project requirements also were changing, so I had to change project code many times, but project met the requirements and was good",
             pl:"Wymagania projektu także się zmieniały więc musiałem zmieniać kod projektu dużo razy, ale projekt spełniał wymagania i było dobrze"
         },
         "pms_creation4":{
-            en:"Summarize: I learned a lot of things about react.js, node.js and other technologies, I know already about basic fullstack concepts and other things which help me with new projects",
-            pl:"Podsumowując: nauczyłem się dużo rzeczy na temat react.js, node.js i innych technologii, wiem już o podstawowych konceptach fullstack i innych rzeczach które pomogą mi w nowych projektach"
+            en:"Summarize, I learned a lot of things about React.js, Node.js, and other technologies. I already know about basic full-stack concepts and other things that help me with new projects",
+            pl:"Podsumowując: nauczyłem się dużo rzeczy na temat React.js, Node.js i innych technologii. Wiem już o podstawowych konceptach fullstack i innych rzeczach które pomogą mi w nowych projektach"
         },
-        "pms_cite":{en:"Don't give up, continue and finish work", pl:"Nie poddawaj się, kontynuuj i dokończ prace"},
+        "pms_cite":{en:"Don't give up; continue and finish work", pl:"Nie poddawaj się; kontynuuj i dokończ prace"},
     },
     actualLanguage: sessionStorage.getItem("lang") || "en",
     updateActualLanguage:(value) => {

@@ -38,13 +38,13 @@ export default function ProjectDescriptions() {
                 <cite className='text-zinc-400 text-xl my-8 text-center px-5'>''{getTextByKey("solitaire_cite")},,</cite>
             </>
         },
-        "property-managament-system":{
+        "property-management-system":{
             type:<p className="bg-green-700 p-2 rounded-lg font-bold text-white" aria-label="project type"><FontAwesomeIcon icon={faDatabase}/> Database system</p>,
             subtitle:<h1 className="text-white font-bold text-2xl text-center px-5" role="subtitle">{getTextByKey("pms_subtitle")}</h1>,
             desc:<>
                 <h1 className="project-desc-h">{getTextByKey("sources")}</h1>
                 <section className="flex lg:flex-row gap-4 justify-center" role="list" aria-label="project sources">
-                    <a title="view project on github" target="_blank" href="https://github.com/Kamil-Kijak/property-managament-system" className="project-desc-button"><FontAwesomeIcon icon={faGithub}/> Github</a>
+                    <a title="view project on github" target="_blank" href="https://github.com/Kamil-Kijak/property-management-system" className="project-desc-button"><FontAwesomeIcon icon={faGithub}/> Github</a>
                 </section>
                 <h1 className="project-desc-h">{getTextByKey("short_desc")}</h1>
                 <p className="project-desc-p">{getTextByKey("pms_short_desc")}</p>
