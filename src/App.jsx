@@ -45,7 +45,6 @@ function App() {
                   <cite className='text-zinc-400 text-xl text-center'>''{getTextByKey("main_cite")},,</cite>
                 </section>
               </section>
-              {/*https://www.hackerrank.com/profile/externalGear */}
               <section className='flex-1/3 flex flex-col items-center lg:mb-0 mb-4'>
                 <section className='flex flex-col lg:items-start items-center' aria-label="social links" role="list">
                   <h1 className='text-3xl font-bold text-cyan-400 mb-5'>{getTextByKey("social")}</h1>
@@ -60,7 +59,7 @@ function App() {
             <section className='mt-3 flex flex-col items-center'>
               <div className='h-3 w-[250px] bg-cyan-400 rounded-2xl'></div>
               <section className='flex flex-col lg:flex-row lg:justify-around gap-y-10 justify-center items-center mt-5 mb-2 w-full'>
-                <h1 className='font-bold text-3xl text-white text-center' aria-label="completed projects">{getTextByKey("completed_projects")} 3</h1>
+                <h1 className='font-bold text-3xl text-white text-center' aria-label="completed projects">{getTextByKey("completed_projects")} 4</h1>
               </section>
             </section>
           </section>

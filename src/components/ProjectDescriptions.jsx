@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import TextListItem from "./listItems/TextListItem";
 
 import { useLanguagesStore } from "./hooks/useLanguagesStore";
-import { faDatabase, faGamepad } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase, faGamepad, faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -35,7 +35,6 @@ export default function ProjectDescriptions() {
                 <p className="project-desc-p">{getTextByKey("solitaire_creation1")}</p>
                 <p className="project-desc-p mt-4">{getTextByKey("solitaire_creation2")}</p>
                 <p className="project-desc-p mt-4">{getTextByKey("solitaire_creation3")}</p>
-                <cite className='text-zinc-400 text-xl my-8 text-center px-5'>''{getTextByKey("solitaire_cite")},,</cite>
             </>
         },
         "property-management-system":{
@@ -64,7 +63,30 @@ export default function ProjectDescriptions() {
                 <p className="project-desc-p mt-4">{getTextByKey("pms_creation2")}</p>
                 <p className="project-desc-p mt-4">{getTextByKey("pms_creation3")}</p>
                 <p className="project-desc-p mt-4">{getTextByKey("pms_creation4")}</p>
-                <cite className='text-zinc-400 text-xl my-8 text-center px-5'>''{getTextByKey("pms_cite")},,</cite>
+            </>
+        },
+        "evoting-flask-app":{
+            type:<p className="bg-blue-800 p-2 rounded-lg font-bold text-white" aria-label="project type"><FontAwesomeIcon icon={faGlobe}/> Web application</p>,
+            subtitle:<h1 className="text-white font-bold text-2xl text-center px-5" role="subtitle">{getTextByKey("efa_subtitle")}</h1>,
+            desc:<>
+                <h1 className="project-desc-h">{getTextByKey("sources")}</h1>
+                <section className="flex lg:flex-row gap-4 justify-center" role="list" aria-label="project sources">
+                    <a title="view project on github" target="_blank" href="https://github.com/Kamil-Kijak/evoting-flask-app.git" className="project-desc-button"><FontAwesomeIcon icon={faGithub}/> Github</a>
+                </section>
+                <h1 className="project-desc-h">{getTextByKey("short_desc")}</h1>
+                <p className="project-desc-p">{getTextByKey("efa_short_desc")}</p>
+                <h1 className="project-desc-h">{getTextByKey("technologies")}</h1>
+                <section className="flex flex-col items-start text-white font-bold text-2xl gap-y-5 ml-4 px-1" role="list" aria-label="used technologies">
+                    <TextListItem title={<p className="shadow-orange-600 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="technology">MySQL</p>} text={getTextByKey("efa_mysql")}/>
+                    <TextListItem title={<p className="shadow-orange-700 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="technology">HTML</p>} text={getTextByKey("efa_html")}/>
+                    <TextListItem title={<p className="shadow-blue-300 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="technology">CSS</p>} text={getTextByKey("efa_css")}/>
+                    <TextListItem title={<p className="shadow-yellow-500 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="technology">Python</p>} text={getTextByKey("efa_python")}/>
+                    <TextListItem title={<p className="shadow-gray-400 shadow-md py-2 px-3 rounded-lg font-bold text-white" aria-label="technology">Flask</p>} text={getTextByKey("efa_flask")}/>
+                </section>
+                <h1 className="project-desc-h">{getTextByKey("creation")}</h1>
+                <p className="project-desc-p">{getTextByKey("efa_creation1")}</p>
+                <p className="project-desc-p mt-4">{getTextByKey("efa_creation2")}</p>
+                <p className="project-desc-p mt-4">{getTextByKey("efa_creation3")}</p>
             </>
         }
     }

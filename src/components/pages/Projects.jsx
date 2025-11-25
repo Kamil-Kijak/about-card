@@ -6,9 +6,10 @@ import PageTitle from "../PageTitle";
 
 import solitaireImg from "../../assets/projects/solitaireMain.png"
 import pmsImg from "../../assets/projects/pmsMain.png"
+import efaImg from "../../assets/projects/efaMain.png"
 import { useLanguagesStore } from "../hooks/useLanguagesStore";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDatabase, faGamepad } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase, faGamepad, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useRef } from "react";
 
 export default function Projects({}) {
@@ -33,6 +34,7 @@ export default function Projects({}) {
             <section className="grid lg:grid-cols-2 grid-cols-1 w-full sm:w-[75%] md:w-full p-5 gap-7 items-stretch lg:h-[600px] overflow-auto scrollbar lg:max-w-screen md:max-w-[500px] max-w-screen" aria-label="Project list" role="grid">
                 <ProjectItem title="solitaire" img={solitaireImg} typeDescription={<><FontAwesomeIcon icon={faGamepad}/> Game</>} colorClass="bg-orange-700"/>
                 <ProjectItem title="property-management-system" img={pmsImg} typeDescription={<><FontAwesomeIcon icon={faDatabase}/> Database system</>} colorClass="bg-green-700"/>
+                <ProjectItem title="evoting-flask-app" img={efaImg} typeDescription={<><FontAwesomeIcon icon={faGlobe}/> Web application</>} colorClass="bg-blue-800"/>
             </section>
             <section ref={descRef} className=" w-full flex flex-col items-center lg:mt-0 overflow-y-auto lg:h-[600px] h-full scrollbar self-start pt-20" role="description">
                 {projectDescriptions[id] && (projectDescriptions[id].hasOwnProperty("type")) && projectDescriptions[id].type}

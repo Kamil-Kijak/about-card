@@ -68,8 +68,6 @@ const useLanguagesStore = create((set, get) => ({
             en:"In summary, I learned a lot of things after creating this solo-made game for my future programming projects",
             pl:"Podsumowując: Nauczyłem się dużo rzeczy dla moich przyszłych projektów po stworzeniu tej gry sam"
         },
-        "solitaire_cite":{en:"First project as first step - maybe not ideal but important", pl:"Pierwszy projekt jako krok - może nie idealny ale ważny"},
-
         "pms_subtitle":{en:"A database system for managing properties", pl:"System bazy danych do zarządzania nieruchmomościami"},
         "pms_short_desc":{
             en:"Database system using for property management, storing data about them, and creating reports about expiring rent contracts. This is my first high-level full-stack project.",
@@ -101,7 +99,29 @@ const useLanguagesStore = create((set, get) => ({
             en:"Summarize, I learned a lot of things about React.js, Node.js, and other technologies. I already know about basic full-stack concepts and other things that help me with new projects",
             pl:"Podsumowując: nauczyłem się dużo rzeczy na temat React.js, Node.js i innych technologii. Wiem już o podstawowych konceptach fullstack i innych rzeczach które pomogą mi w nowych projektach"
         },
-        "pms_cite":{en:"Don't give up; continue and finish work", pl:"Nie poddawaj się; kontynuuj i dokończ prace"},
+        "efa_subtitle":{en:"A voting system", pl:"System wyborów"},
+        "efa_short_desc":{
+            en:"Web app created for preparing, managing votes. Application is like a votes portal where you can search vote, give your vote, and also create own vote",
+            pl:"Aplikacja webowa tworzona żeby przygotowywać and zarządzać wyborami. Aplikacja jest jak portal wyborów gdzie możesz szukać wyborów, oddać swój głos, a także stworzyć własne wybory"
+        },
+        "efa_mysql":{en:"Database language", pl:"Język bazy danych"},
+        "efa_html":{en:"Language for website templates", pl:"Jezyk do szablonów strony internetowej"},
+        "efa_css":{en:"Website stylizing", pl:"Stylowanie strony internetowej"},
+        "efa_python":{en:"Backend programming language", pl:"Język programowania backend"},
+        "efa_flask":{en:"Python web framework", pl:"Framework web do python"},
+        "efa_creation1":{
+            en:"This project was created for my technical school subject. I wanted to use new technologies instead React.js and Node.js, because I was using them a lot of before",
+            pl:"Ten projekt był tworzony na mój techniczny przedmiot szkolny. Chciałem użyć nowych technologii zamiast React.js i Node.js, ponieważ używałem nich dużo przedtem"
+        },
+        "efa_creation2":{
+            en:"So, I chose Python with integration with web using Flask framework. I learned about Python and also about ORM schemes",
+            pl:"Więc, wybrałem Pythona z integracją z web używając frameworka Flask. Nauczyłem się o Pythonie a także o schematach ORM"
+        },
+        "efa_creation3":{
+            en:"ORM schemes are very helpful with SQL databases. I created website templates as application GUI and integrated Flask with there",
+            pl:"Schematy ORM są bardzo pomocne z bazami danych SQL. Tworzyłem szablony stron internetowych jako GUI aplikacji i integrowałem Flask z nimi"
+        },
+        
     },
     actualLanguage: sessionStorage.getItem("lang") || "en",
     updateActualLanguage:(value) => {
