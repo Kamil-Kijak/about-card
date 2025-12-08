@@ -8,7 +8,7 @@ export default function ParticlesScreen({particlesCount}) {
     useEffect(() => {
         const interval = setInterval(() => {
             if(turned)
-                setParticles(prev => [...prev, <Particle y={window.innerHeight * Math.random()}/>])
+                setParticles(prev => [...prev, <Particle y={100 * Math.random()}/>])
         }, 100);
         return () => {
             clearInterval(interval)

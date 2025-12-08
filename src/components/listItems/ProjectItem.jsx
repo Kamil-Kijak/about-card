@@ -4,13 +4,11 @@ import { useNavigate } from "react-router-dom";
 export default function ProjectItem({img, title = "project", typeDescription = <>something</>, colorClass = "bg-cyan-400"}) {
     const navigate = useNavigate();
     return (
-        <section title={`${title}`} className="bg-zinc-800 w-full h-[200px] rounded-2xl cursor-pointer relative overflow-hidden" onClick={() => navigate(`/projects/${title}`)} role="button" aria-label="show this project">
-            {
-                img ? <img src={img} className="absolute w-full h-full" aria-label="project image" /> : <section className="flex justify-center items-center h-full" aria-label="no image"><h1 className="text-white font-bold text-2xl text-center">No Image</h1></section>
-            }
-            <section className="absolute bg-black/50 opacity-0 hover:opacity-100 z-5 top-0 right-0 bottom-0 left-0 transition-opacity duration-200 ease-in-out flex flex-col justify-center items-center">
-                <h1 className="mb-10 font-bold text-white text-2xl text-center w-[80%] break-words" aria-label="project title">{title}</h1>
+        <section className="bg-zinc-800 shadow-lg hover:shadow-white/50 w-full cursor-pointer flex flex-col md:flex-row justify-center md:items-start items-center p-7 rounded-2xl gap-5 transition-all duration-75 ease-in-out hover:scale-105" onClick={() => navigate(`/projects/${title}`)} role="button" aria-label="show this project">
+            <img src={img} alt={title + " image"} className="rounded-2xl w-[150px] h-[100px]"/>
+            <section className="flex-1/2 flex flex-col justify-start gap-y-3 md:items-start items-center">
                 <p className={`${colorClass} p-2 rounded-lg cursor-pointer font-bold text-white`} aria-label="project type">{typeDescription}</p>
+                <h1 className="text-white font-extrabold text-2xl text-center">{title}</h1>
             </section>
         </section>
     )
