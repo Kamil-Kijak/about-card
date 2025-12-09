@@ -29,7 +29,7 @@ export default function Projects({}) {
     }, [pathname])
 
     return (
-        <section className="flex lg:flex-row flex-col mt-8 md:justify-around justify-center items-start min-h-full flex-1">
+        <section className="flex lg:flex-row flex-col mt-8 md:justify-around justify-center lg:items-start items-center min-h-full flex-1">
             <PageTitle title={`${projectDescriptions[id] ? id !="none" ? id : "projects" : "project not found"} - Kamil Kijak`}/>
             <section className="lg:max-h-[800px] max-h-full overflow-auto flex-1/2">
                 <section className="flex flex-col justify-center items-center m-10 gap-y-10 flex-1/2" aria-label="Project list" role="grid">
@@ -38,7 +38,7 @@ export default function Projects({}) {
                     <ProjectItem title="evoting-flask-app" img={efaImg} typeDescription={<><FontAwesomeIcon icon={faGlobe}/> Web application</>} colorClass="bg-blue-800"/>
                 </section>
             </section>
-            <section className="lg:max-h-[800px] max-h-full overflow-auto flex-1/2">
+            <section className="lg:max-h-[800px] max-h-full overflow-auto md:flex-1/2">
                 <section ref={descRef} className="flex-1/2 md:m-10 m-0 flex flex-col justify-center items-center" role="description">
                     {projectDescriptions[id] && (projectDescriptions[id].hasOwnProperty("type")) && projectDescriptions[id].type}
                     {<h1 className="text-cyan-400 font-bold md:text-5xl text-3xl mb-4 mt-4 text-center">{projectDescriptions[id] ? id !="none" ? id : getTextByKey("select") : 404}</h1>}
