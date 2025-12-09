@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default function IconListItem({icon, text}) {
     return (
-        <section className="flex items-center shadow-md shadow-cyan-300 p-2 rounded-md">
-            <FontAwesomeIcon icon={icon} className='text-cyan-400 mr-4'/>
-            <span>{text}</span>
+        <section className="flex flex-col lg:flex-row items-center gap-5 justify-start bg-zinc-800 rounded-xl p-4 w-full transition-all duration-75 ease-in-out hover:shadow-white/50 hover:scale-105 shadow-lg">
+            <FontAwesomeIcon icon={icon} className='text-cyan-400 mr-4 text-2xl'/>
+            <span className="text-white font-bold text-2xl">{text}</span>
         </section>
     )
 }

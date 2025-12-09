@@ -1,5 +1,4 @@
-import { faMedal, faStar } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 
 export default function TechnologyItem({title = "language", width="w-[50%]", certificateLink, textColor="text-white", barColor="bg-white"}) {

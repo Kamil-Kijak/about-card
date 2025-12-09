@@ -23,7 +23,7 @@ const useLanguagesStore = create((set, get) => ({
             pl:"Moim celem jest tworzenie najbardziej innowacyjnych rozwiązań stosowanych w IT przez cały czas, po tym chciałnym stworzyć coś naprawdę dużego. Chcę być lepszy z każdym projektem"
         },
         "check_out":{en:"Check them out!", pl:"Sprawdź je!"},
-        "good_things":{en:"My things", pl:"Moje rzeczy"},
+        "good_things":{en:"Check out my things", pl:"Sprawdź moje rzeczy"},
         "productive":{en:"Productivity", pl:"Produktywność"},
         "self-improvement":{en:"Self-improvement", pl:"Samodoskonalenie się"},
         "problem_solving":{en:"Problem solving", pl:"Rozwiązywanie problemów"},

@@ -24,8 +24,10 @@ export default function Projects({}) {
     const projectDescriptions = ProjectDescriptions();
 
     useEffect(() => {
-        descRef.current?.scrollIntoView({ behavior: 'smooth' });
-        descRef.current.scrollTop = 0;
+        if (pathname != "/projects/none") {
+            descRef.current?.scrollIntoView({ behavior: 'smooth' });
+            descRef.current.scrollTop = 0;
+        }
     }, [pathname])
 
     return (
