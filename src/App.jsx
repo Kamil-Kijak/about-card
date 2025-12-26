@@ -2,7 +2,7 @@
 import PolandFlag from "./assets/profile/polandFlag.webp"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faTiktok, faYoutube, faHackerrank} from "@fortawesome/free-brands-svg-icons"
+import { faLinkedin, faHackerrank, faInstagram, faThreads} from "@fortawesome/free-brands-svg-icons"
 
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import About from './components/pages/About';
@@ -51,8 +51,8 @@ function App() {
                   <a title='Linkedin' href="https://www.linkedin.com/in/kamil-kijak-546676358" rel='nofollow' target="_blank" className='social-link' aria-label="linkedin"><FontAwesomeIcon icon={faLinkedin}/> Kamil Kijak</a>
                   <a title='Hackerrank' href="https://www.hackerrank.com/profile/externalGear" rel='nofollow' target="_blank" className='social-link mt-3' aria-label="hackerrank"><FontAwesomeIcon icon={faHackerrank}/> @externalGear</a>
                   <a title='Leetcode' href="https://leetcode.com/u/ExternalGear/" rel='nofollow' target="_blank" className='social-link mt-3' aria-label="leetcode"><FontAwesomeIcon icon={faCode}/> ExternalGear</a>
-                  <a title='Tiktok' href="https://www.tiktok.com/@externalgear" rel='nofollow' target="_blank" className='social-link mt-3' aria-label="tiktok"><FontAwesomeIcon icon={faTiktok}/> @externalgear</a>
-                  <a title='Youtube' href="https://www.youtube.com/@External-Gear" rel='nofollow' target="_blank" className='social-link mt-3' aria-label="youtube"><FontAwesomeIcon icon={faYoutube}/> @External-Gear</a>
+                  <a title='Instagram' href="https://www.instagram.com/kamilkijak/" rel='nofollow' target="_blank" className='social-link mt-3' aria-label="instagram"><FontAwesomeIcon icon={faInstagram}/> kamilkijak</a>
+                  <a title='Threads' href="https://www.threads.com/@kamilkijak" rel='nofollow' target="_blank" className='social-link mt-3' aria-label="youtube"><FontAwesomeIcon icon={faThreads}/> @kamilkijak</a>
                 </section>
               </section>
             </section>
