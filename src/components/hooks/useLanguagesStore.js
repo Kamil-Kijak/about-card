@@ -4,7 +4,7 @@ import { create } from "zustand"
 const useLanguagesStore = create((set, get) => ({
     texts:{
         "localization":{en:"Cracov, Lesser Poland", pl:"Kraków, Małopolska"},
-        "main_cite":{en:"Working and focusing with code", pl:"Pracowanie i koncentracja nad kodem"},
+        "main_cite":{en:"Programming, working, collaborating", pl:"Programowanie, praca, współpraca"},
         "social":{en:"Socials", pl:"Społecznościowe"},
         "completed_projects":{en:"Completed Projects: ", pl:"Ukończone Projekty: "},
         "about":{en:"About", pl:"O mnie"},

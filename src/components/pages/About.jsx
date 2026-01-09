@@ -3,7 +3,7 @@ import { useLanguagesStore } from "../hooks/useLanguagesStore";
 import PageTitle from "../PageTitle"
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import ThingLink from "../listItems/ThingLink";
-import { faFile, faPrint } from "@fortawesome/free-solid-svg-icons";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 import { useReactToPrint } from "react-to-print";
 import CV from "./CV";
 import { useRef } from "react";
@@ -21,7 +21,7 @@ export default function About({}) {
 
     return (
         <section className="flex mt-8 justify-center items-center min-h-full pb-5">
-            <PageTitle title={"About Card - Kamil Kijak"}/>
+            <PageTitle title={"Portfolio - Kamil Kijak"}/>
             <section className="flex justify-around w-full mt-10 lg:flex-row flex-col gap-y-10">
                 <section className="flex flex-col items-center flex-1/2" aria-label="profile description">
                     <h1 className="text-4xl font-bold text-red-800 text-center px-5" aria-label="greetings">{getTextByKey("about_hello")} Kamil Kijak</h1>

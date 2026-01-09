@@ -11,10 +11,9 @@ export default function CV() {
                     <div className="bg-red-700 h-[500px] w-[1.65rem]"></div>
                     <FontAwesomeIcon icon={faBookmark} className="text-red-700 text-[35px] relative top-[-10px]"/>
                 </section>
-                <section className="flex flex-1 flex-col mt-3 ml-10 items-center">
-                    <img src="/socialicon.jpg" className='w-[150px] h-[150px] rounded-2xl grayscale-100' alt='Kamil Kijak profile picture' role="image"/>
-                    <h1 className="mt-3 text-xl font-bold text-zinc-900">Kamil Kijak</h1>
-                    <p className="font-bold text-zinc-800 text-center">(Student of software development)</p>
+                <section className="flex flex-1 flex-col mt-3 ml-10 items-start">
+                    <h1 className="my-3 text-3xl font-bold text-zinc-900">Kamil Kijak</h1>
+                    <p className="font-bold text-zinc-800">Student of Software development</p>
                     <section className="mt-6 w-full">
                         <p className="font-bold text-zinc-900 self-start">Personal Data:</p>
                         <div className="bg-red-700 w-full h-[3px] mt-1"></div>
@@ -22,9 +21,6 @@ export default function CV() {
                             <section className="mt-3 gap-y-2 flex flex-col">
                                 <section className="text-zinc-800 flex items-center gap-x-2 text-sm">
                                     <FontAwesomeIcon icon={faLocationDot}/> Poland, Kraków
-                                </section>
-                                <section className="text-zinc-800 flex items-center gap-x-2 text-sm">
-                                    <FontAwesomeIcon icon={faBirthdayCake}/> 07.07.2008
                                 </section>
                                 <section className="text-zinc-800 flex items-center gap-x-2 text-sm">
                                     <FontAwesomeIcon icon={faEnvelope}/> kamil.kijak@pixlesofte.com
@@ -49,13 +45,12 @@ export default function CV() {
                         </section>
                     </section>
                     <section className="w-full mt-6">
-                        <p className="font-bold text-zinc-900 self-start">Hobbies:</p>
+                        <p className="font-bold text-zinc-900 self-start">Languages:</p>
                         <div className="bg-red-700 w-full h-[3px] mt-1"></div> 
                         <section className="flex flex-col items-start ml-5">
-                            <ul className="mt-3 list-disc text-zinc-800 text-sm">
-                                <li>Programming</li>
-                                <li>Gamedev</li>
-                                <li>Designing</li>
+                            <ul className="mt-3 list-disc text-zinc-800 text-md">
+                                <li><strong>Polish:</strong> Native</li>
+                                <li><strong>English:</strong> B1 level</li>
                             </ul>
                         </section>
                     </section>
@@ -64,9 +59,9 @@ export default function CV() {
                         <div className="bg-red-700 w-full h-[3px] mt-1"></div>
                         <section className="flex flex-col items-start ml-5">
                             <ul className="mt-3 list-disc text-zinc-800 text-sm">
-                                <li>Websites, databases creating</li>
-                                <li>Creating IT systems</li>
-                                <li>Planning and creating IT projects</li>
+                                <li>Web applications, websites creating</li>
+                                <li>Database, server management</li>
+                                <li>Version controlling and configurating server</li>
                             </ul>
                         </section>
                     </section>
@@ -77,7 +72,7 @@ export default function CV() {
                             <ul className="mt-3 list-disc text-zinc-800 text-sm">
                                 <li>Logical thinking</li>
                                 <li>Creating ideas</li>
-                                <li>Finding solutions</li>
+                                <li>Solving problems</li>
                                 <li>Teamwork</li>
                                 <li>Productivity</li>
                                 <li>Creativity</li>
@@ -105,13 +100,13 @@ export default function CV() {
                         <section className="mt-4 flex gap-x-5 items-center">
                             <div className="w-[10px] h-[10px] bg-zinc-800 rounded-full"></div>
                             <section className="flex flex-col">
-                                <p className="text-sm"><span className="font-bold">Basis:</span> HTML, CSS, Java Script</p>
+                                <p className="text-sm"><span className="font-bold">Basis:</span> HTML, CSS, JavaScript</p>
                             </section>
                         </section>
                         <section className="mt-4 flex gap-x-5 items-center">
                             <div className="w-[10px] h-[10px] bg-zinc-800 rounded-full"></div>
                             <section className="flex flex-col">
-                                <p className="text-sm"><span className="font-bold">Backend:</span> Node.js, Express.js, PHP</p>
+                                <p className="text-sm"><span className="font-bold">Backend:</span> Node.js, Express.js, PHP, Flask</p>
                             </section>
                         </section>
                         <section className="mt-4 flex gap-x-5 items-center">
@@ -123,7 +118,7 @@ export default function CV() {
                         <section className="mt-4 flex gap-x-5 items-center">
                             <div className="w-[10px] h-[10px] bg-zinc-800 rounded-full"></div>
                             <section className="flex flex-col">
-                                <p className="text-sm"><span className="font-bold">Database:</span> MySQL</p>
+                                <p className="text-sm"><span className="font-bold">Database:</span> MySQL, mongoDB</p>
                             </section>
                         </section>
                         <section className="mt-4 flex gap-x-5 items-center">
@@ -142,24 +137,6 @@ export default function CV() {
                             <div className="w-[10px] h-[10px] bg-zinc-800 rounded-full"></div>
                             <section className="flex flex-col">
                                 <p className="text-sm"><span className="font-bold">Tools:</span> VScode, Pycharm, MySQL Workbench</p>
-                            </section>
-                        </section>
-                    </section>
-                    <section className="flex flex-col mt-6 w-[80%]">
-                        <h1 className="text-2xl font-bold">Languages</h1>
-                        <div className="bg-red-700 w-full h-[3px] mt-1"></div>
-                        <section className="grid grid-cols-2">
-                            <section className="mt-4 flex gap-x-5 items-center">
-                                <div className="w-[10px] h-[10px] bg-zinc-800 rounded-full"></div>
-                                <section className="flex flex-col">
-                                    <p className="text-sm"><span className="font-bold">Polish:</span> Native</p>
-                                </section>
-                            </section>
-                            <section className="mt-4 flex gap-x-5 items-center">
-                                <div className="w-[10px] h-[10px] bg-zinc-800 rounded-full"></div>
-                                <section className="flex flex-col">
-                                    <p className="text-sm"><span className="font-bold">English:</span> B1 level</p>
-                                </section>
                             </section>
                         </section>
                     </section>
