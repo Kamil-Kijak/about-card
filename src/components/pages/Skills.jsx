@@ -1,5 +1,5 @@
 
-import {faLightbulb, faMagnifyingGlass, faPen, faUser, faUsers, faHandshakeSimple, faHandHoldingHand, faGear, faBrain, faPaintBrush} from "@fortawesome/free-solid-svg-icons"
+import {faLightbulb, faMagnifyingGlass, faPen, faUser, faUsers, faGear, faBrain} from "@fortawesome/free-solid-svg-icons"
 import IconListItem from '../listItems/IconListItem';
 import PageTitle from "../PageTitle";
 import { useLanguagesStore } from "../hooks/useLanguagesStore";
@@ -12,7 +12,7 @@ export default function Skills({}) {
             <PageTitle title={"Skills - Kamil Kijak"}/>
             <section className="flex justify-around w-full mt-10 lg:flex-row flex-col gap-y-10">
                 <section className="flex-1/2 flex flex-col items-center xl:m-10 m-0">
-                    <h1 className="xl:text-5xl text-4xl font-bold text-cyan-400 text-center">{getTextByKey("technical")}</h1>
+                    <h1 className="xl:text-5xl text-4xl font-bold text-red-800 text-center">{getTextByKey("technical")}</h1>
                     <section className="flex flex-col items-start gap-y-5 p-5 overflow-auto scrollbar h-full xl:h-[800px] w-full mt-7" role="list" aria-label="technical skills">
                         <TechnologyItem title="HTML" barColor="bg-orange-700" textColor="text-orange-700" width="w-[95%]"/>
                         <TechnologyItem title="CSS" barColor="bg-blue-300" textColor="text-blue-300" width="w-[90%]"/>
@@ -28,7 +28,7 @@ export default function Skills({}) {
                     </section>
                 </section>
                 <section className="flex-1/2 flex flex-col items-center xl:m-10 m-0">
-                    <h1 className="xl:text-5xl text-4xl font-bold text-cyan-400 text-center">{getTextByKey("soft")}</h1>
+                    <h1 className="xl:text-5xl text-4xl font-bold text-red-800 text-center">{getTextByKey("soft")}</h1>
                     <section className="flex flex-col items-start gap-y-5 p-5 overflow-auto scrollbar h-full xl:h-[800px] mt-7" role="list" aria-label="practical skills">
                         <IconListItem icon={faGear} text={getTextByKey("productive")}/>
                         <IconListItem icon={faBrain} text={getTextByKey("logical_thinking")}/>

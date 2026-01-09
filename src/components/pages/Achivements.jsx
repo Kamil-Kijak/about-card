@@ -9,7 +9,7 @@ export default function Achivements() {
             <PageTitle title={"Achivements - Kamil Kijak"}/>
             <section className="flex justify-around w-full mt-10 lg:flex-row flex-col gap-y-10">
                 <section className="flex-1/3 flex flex-col items-center p-5">
-                    <h1 className="text-4xl font-bold text-cyan-400 mb-5">{getTextByKey("experience")}</h1>
+                    <h1 className="text-4xl font-bold text-red-800 mb-5">{getTextByKey("experience")}</h1>
                     <AchivementLink
                         href={"/jobReferences/skinvest.pdf"}
                         title={
@@ -17,7 +17,7 @@ export default function Achivements() {
                             SK INVEST Job July - September 2025
                         </>
                         }
-                        shadowColor="shadow-cyan-400"
+                        shadowColor="shadow-red-800"
                         desc="Created MySQL database system"
                     />
                 </section>

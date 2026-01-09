@@ -43,7 +43,7 @@ export default function Projects({}) {
             <section className="lg:max-h-[800px] max-h-full overflow-auto md:flex-1/2">
                 <section ref={descRef} className="flex-1/2 md:m-10 m-0 flex flex-col justify-center items-center" role="description">
                     {projectDescriptions[id] && (projectDescriptions[id].hasOwnProperty("type")) && projectDescriptions[id].type}
-                    {<h1 className="text-cyan-400 font-bold md:text-5xl text-3xl mb-4 mt-4 text-center">{projectDescriptions[id] ? id !="none" ? id : getTextByKey("select") : 404}</h1>}
+                    {<h1 className="text-red-800 font-bold md:text-5xl text-3xl mb-4 mt-4 text-center">{projectDescriptions[id] ? id !="none" ? id : getTextByKey("select") : 404}</h1>}
                     {projectDescriptions[id]?.subtitle || <h1 className="text-white font-bold text-2xl text-center">{getTextByKey("project_not_found")}</h1>}
                     {projectDescriptions[id] && (projectDescriptions[id].hasOwnProperty("desc") ? projectDescriptions[id].desc : <h1 className="text-white font-bold text-2xl my-5 text-center">{getTextByKey("no_desc")}</h1>)}
                 </section>

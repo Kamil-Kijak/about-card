@@ -24,9 +24,9 @@ export default function About({}) {
             <PageTitle title={"About Card - Kamil Kijak"}/>
             <section className="flex justify-around w-full mt-10 lg:flex-row flex-col gap-y-10">
                 <section className="flex flex-col items-center flex-1/2" aria-label="profile description">
-                    <h1 className="text-4xl font-bold text-cyan-400 text-center px-5" aria-label="greetings">{getTextByKey("about_hello")} Kamil Kijak</h1>
+                    <h1 className="text-4xl font-bold text-red-800 text-center px-5" aria-label="greetings">{getTextByKey("about_hello")} Kamil Kijak</h1>
                     <h1 className="text-2xl font-bold text-white mt-4 text-center px-5" aria-label="profession">{getTextByKey("want_be")} Software Developer</h1>
-                    <div className='h-3 w-[200px] bg-cyan-400 rounded-2xl my-3'></div>
+                    <div className='h-3 w-[200px] bg-red-800 rounded-2xl my-3'></div>
                     <p className="text-white text-xl lg:w-[50%] w-[75%] text-center" aria-label="description">
                         {getTextByKey("about_desc1")}
                     </p>
@@ -36,7 +36,7 @@ export default function About({}) {
                     <p className="text-white text-3xl font-bold lg:w-[50%] w-[75%] text-center mt-5">{getTextByKey("check_out")}</p>
                 </section>
                 <section className="flex-1/4 flex flex-col items-center">
-                    <h1 className="text-4xl font-bold text-cyan-400 text-center">{getTextByKey("good_things")}</h1>
+                    <h1 className="text-4xl font-bold text-red-800 text-center">{getTextByKey("good_things")}</h1>
                     <section className="flex flex-col items-start text-white font-bold mt-7 text-2xl gap-y-5 px-5" role="list" aria-label="things">
                         <ThingLink
                             href={"https://github.com/Kamil-Kijak"}
@@ -49,7 +49,7 @@ export default function About({}) {
                         />
                         <ThingLink
                             action={printCV}
-                            shadowColor="shadow-cyan-400"
+                            shadowColor="shadow-red-800"
                             desc="Kamil Kijak CV"
                             title={
                             <>

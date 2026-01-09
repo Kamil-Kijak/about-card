@@ -17,7 +17,7 @@
 }
 
 .social-link {
-  @apply text-white text-xl hover:text-cyan-400 transition-colors duration-200 ease-in-out
+  @apply text-white text-xl hover:text-red-800 transition-colors duration-200 ease-in-out
 }
 .nav-button {
   @apply text-white cursor-pointer hover:bg-zinc-800 px-8 py-4 h-full text-xl font-bold transition-colors duration-200 ease-in-out
@@ -28,11 +28,11 @@
 }
 
 .project-desc-h {
-  @apply font-bold text-3xl text-center my-5 text-cyan-400
+  @apply font-bold text-3xl text-center my-5 text-red-800
 }
 
 .project-desc-button {
-  @apply px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-white font-bold text-2xl transition-colors duration-150 ease-in-out cursor-pointer
+  @apply px-4 py-2 rounded-lg bg-red-800 hover:bg-red-700 text-white font-bold text-2xl transition-colors duration-150 ease-in-out cursor-pointer
 }
 
 .project-desc-p {
